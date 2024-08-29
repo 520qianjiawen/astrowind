@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Rumtoo
+  site: 'https://rumtoo.com'
   base: '/'
   trailingSlash: false
 
