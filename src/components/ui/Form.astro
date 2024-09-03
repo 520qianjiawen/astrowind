@@ -2,10 +2,11 @@
 import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
 
+// 引入 Astro.props，以便动态填充表单字段
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
 
-<form>
+<form action="/api/sendEmail" method="POST">
   {
     inputs &&
       inputs.map(
