@@ -1,7 +1,4 @@
 ---
-import pvcPetRecyclingImage from 'src/assets/images/pvc-pet-recycling.webp';
-
-<img src={pvcPetRecyclingImage} alt="PVC PET Recycling" />
 publishDate: 2024-09-01T00:00:00Z
 author: John Smith
 title: Tackling PVC Contamination in PET Bottle Recycling:A Comprehensive Guide
