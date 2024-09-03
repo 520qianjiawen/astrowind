@@ -1,9 +1,11 @@
 ---
+import pvcPetRecyclingImage from '../../../assets/images/pvc-pet-recycling.webp';
+
 publishDate: 2024-09-01T00:00:00Z
 author: John Smith
 title: Tackling PVC Contamination in PET Bottle Recycling:A Comprehensive Guide
 excerpt: Discover the intricate challenges of PVC contamination in PET bottle recycling and learn practical solutions to produce high-quality PET flakes.
-image: src/assets/images/pvc-pet-recycling.webp
+image: pvcPetRecyclingImage
 category: Tutorials
 tags:
   - PET Bottle Recycling
