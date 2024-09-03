@@ -1,5 +1,6 @@
 ---
 publishDate: 2024-09-02T08:00:00Z
+author: John Smith
 title: Granulator for PET Flakes:Boosting Efficiency and Quality in Recycling
 excerpt: Discover how a granulator for PET flakes can enhance recycling efficiency and material quality. Learn about its mechanics, benefits, and optimal designs.
 image: /images/granulator-for-pet-flakes-boosting-efficiency-and-quality-in-recycling.webp
@@ -7,7 +8,6 @@ tags:
   - PET recycling
   - plastic granulator
   - PET flakes
-  - granulator maintenance
   - PET bottle washing line
   metadata:
     canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
