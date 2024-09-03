@@ -8,7 +8,6 @@ tags:
   - PET recycling
   - plastic granulator
   - PET flakes
-  - PET bottle washing line
   metadata:
     canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
 ---
