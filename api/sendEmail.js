@@ -12,8 +12,8 @@ export default async (req, res) => {
     // 配置 nodemailer
     const transporter = nodemailer.createTransport({
       host: 'smtp.hostinger.com',
-      port: 587,
-      secure: false,
+      port: 465,
+      secure: true,
       auth: {
         user: 'sales@recyclemachine.net',
         pass: '912$$Qjw'
