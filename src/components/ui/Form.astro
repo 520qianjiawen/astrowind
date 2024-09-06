@@ -1,11 +1,12 @@
 ---
-import type { Form as Props } from '~/types';
+// 引入Button组件
 import Button from '~/components/ui/Button.astro';
 
+// Astro.props 包含所有从父组件传递下来的 props
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
 
-<form id="contactForm">
+<form id="contactForm" action="https://formspree.io/f/xdknjwkg" method="POST">
   {
     inputs &&
       inputs.map(
@@ -85,31 +86,3 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 </form>
-
-<script>
-document.getElementById('contactForm').addEventListener('submit', async function(event) {
-  event.preventDefault();  // 阻止表单的默认提交行为
-
-  const formData = new FormData(this);
-  const formObject = Object.fromEntries(formData);
-
-  try {
-    const response = await fetch('/api/sendEmail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'  // 确保请求头为 JSON
-      },
-      body: JSON.stringify(formObject)  // 将数据序列化为 JSON
-    });
-
-    if (response.ok) {
-      alert('Email sent successfully!');
-    } else {
-      alert('Failed to send email');
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    alert('An error occurred while sending the email');
-  }
-});
-</script>
