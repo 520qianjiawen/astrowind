@@ -43,6 +43,10 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
+          text: 'Contact',
+          href: getPermalink('/contact'),
+        },
+        {
           text: 'Terms',
           href: getPermalink('/terms'),
         },
@@ -107,8 +111,8 @@ export const headerData = {
       ],
     },
     {
-      text: 'Contact',
-      href: getPermalink('/contact'),
+      text: 'Widgets',
+      href: '#',
     },
   ],
   actions: [{ text: 'Download', href: '', target: '_blank' }],
