@@ -1,0 +1,14 @@
+<!-- src/components/PlyrVideo.astro -->
+<div class="video-player">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+  <video id="player" controls>
+    <source src="YOUR_VIDEO_URL" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const player = new Plyr('#player');
+    });
+  </script>
+</div>
