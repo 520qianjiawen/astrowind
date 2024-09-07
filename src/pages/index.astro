@@ -11,7 +11,6 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import PlyrVideo from '~/components/PlyrVideo.astro';
 
 const metadata = {
   title: 'Rumtoo — Plastic Recycling Machines',
@@ -47,15 +46,26 @@ const metadata = {
       <span class="block mb-1 sm:hidden font-bold text-blue-600">Rumtoo: Production-ready.</span>
       Discover how our advanced plastic recycling machines can revolutionize waste management and create a sustainable future.
     </Fragment>
-        
-    <!-- 插入 Plyr 视频播放器 -->
-    <PlyrVideo videoUrl="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" />
-    
   </Hero>
 
   <!-- Note Widget ******************* -->
 
   <Note />
+
+
+  <!-- Plyr Video ******************** -->
+
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+  <video id="player" controls>
+    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const player = new Plyr('#player');
+    });
+  </script>
 
   <!-- Features Widget *************** -->
 
