@@ -47,14 +47,25 @@ const metadata = {
       <span class="block mb-1 sm:hidden font-bold text-blue-600">Rumtoo: Production-ready.</span>
       Discover how our advanced plastic recycling machines can revolutionize waste management and create a sustainable future.
     </Fragment>
-    
+
     <!-- 在 Hero 图片下方插入视频 -->
-    <div class="video-player">
-      <video id="player" controls>
-        <source src="https://dl-a10b-0861.mypikpak.com/download/?fid=n5CHMujCn2MOB4UQDA9DVSBNc1Q3op-GGx4bD4drW6UShM3tLwrZvdeJ2Q3W96fmveudH7lIdVfx38c4jgdOLWDoZzT-vUu_tJ2oJhKlEDU=&from=5&verno=3&prod=pikpak&expire=1725788072&g=E26534DD7162510118FFA42C600C8AE6CED3F7B2&ui=ZtwY6vIIvfz61IcM&t=0&ms=6300000&th=6300000&f=20572576&alt=0&us=0&hspu=&po=0&fileid=VO6Ap7qkMmMdW3d3AbLn2SLKo1&userid=ZtwY6vIIvfz61IcM&pr=XQPkPvr9WWiIuMvELmrVeukCcCGIprqGJg92dLRJncRxaAdE6pBKp_YpWbWhyVkzMVeyLOyAWjW-0_PCS6KVSw0HT2Ku16aXcuCtc9zQTCEMrkwpLgYF4U3LCSDCgmq6_4nnDGWfdzErPQwkpQzz7rnprOLGCSK-gQyBRx3amBUBOI6k6jdtN37WIP8gC_6RU7H-O2kTmL17z1hT7YEkqNHxhhaVifx0xUxFLf5x8h3pmwI9agju603AFWI_z10v_el44CFJPh1ipNN_sGglTVQDuiPif-jcwWL94zUnp9cIMFwKZ65OaHhCeYGBDIibHJtVcNwLm38NmH08ukHJAOB6swAQveONOF0tamqP_sofSFQxL2EiyWesRVPlEcDQNdMVUpBvt2g_aSgG7Iw6Ow==" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+<div class="container">
+	<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+		<!-- 替换为你提供的视频地址 -->
+		<source src="https://dl-a10b-0861.mypikpak.com/download/?fid=n5CHMujCn2MOB4UQDA9DVSBNc1Q3op-GGx4bD4drW6UShM3tLwrZvdeJ2Q3W96fmveudH7lIdVfx38c4jgdOLWDoZzT-vUu_tJ2oJhKlEDU=&from=5&verno=3&prod=pikpak&expire=1725788072&g=E26534DD7162510118FFA42C600C8AE6CED3F7B2&ui=ZtwY6vIIvfz61IcM&t=0&ms=6300000&th=6300000&f=20572576&alt=0&us=0&hspu=&po=0&fileid=VO6Ap7qkMmMdW3d3AbLn2SLKo1&userid=ZtwY6vIIvfz61IcM&pr=XQPkPvr9WWiIuMvELmrVeukCcCGIprqGJg92dLRJncRxaAdE6pBKp_YpWbWhyVkzMVeyLOyAWjW-0_PCS6KVSw0HT2Ku16aXcuCtc9zQTCEMrkwpLgYF4U3LCSDCgmq6_4nnDGWfdzErPQwkpQzz7rnprOLGCSK-gQyBRx3amBUBOI6k6jdtN37WIP8gC_6RU7H-O2kTmL17z1hT7YEkqNHxhhaVifx0xUxFLf5x8h3pmwI9agju603AFWI_z10v_el44CFJPh1ipNN_sGglTVQDuiPif-jcwWL94zUnp9cIMFwKZ65OaHhCeYGBDIibHJtVcNwLm38NmH08ukHJAOB6swAQveONOF0tamqP_sofSFQxL2EiyWesRVPlEcDQNdMVUpBvt2g_aSgG7Iw6Ow==" type="video/mp4" size="1080">
+
+		<!-- 如果需要，可以保留多个分辨率 -->
+		<!-- <source src="https://你的720p视频链接.mp4" type="video/mp4" size="720"> -->
+		<!-- <source src="https://你的576p视频链接.mp4" type="video/mp4" size="576"> -->
+
+		<!-- 字幕文件（可选） -->
+		<track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
+		<track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+
+		<!-- Fallback for browsers that don't support the <video> element -->
+		<a href="https://dl-a10b-0861.mypikpak.com/download/?fid=n5CHMujCn2MOB4UQDA9DVSBNc1Q3op-GGx4bD4drW6UShM3tLwrZvdeJ2Q3W96fmveudH7lIdVfx38c4jgdOLWDoZzT-vUu_tJ2oJhKlEDU=&from=5&verno=3&prod=pikpak&expire=1725788072&g=E26534DD7162510118FFA42C600C8AE6CED3F7B2&ui=ZtwY6vIIvfz61IcM&t=0&ms=6300000&th=6300000&f=20572576&alt=0&us=0&hspu=&po=0&fileid=VO6Ap7qkMmMdW3d3AbLn2SLKo1&userid=ZtwY6vIIvfz61IcM&pr=XQPkPvr9WWiIuMvELmrVeukCcCGIprqGJg92dLRJncRxaAdE6pBKp_YpWbWhyVkzMVeyLOyAWjW-0_PCS6KVSw0HT2Ku16aXcuCtc9zQTCEMrkwpLgYF4U3LCSDCgmq6_4nnDGWfdzErPQwkpQzz7rnprOLGCSK-gQyBRx3amBUBOI6k6jdtN37WIP8gC_6RU7H-O2kTmL17z1hT7YEkqNHxhhaVifx0xUxFLf5x8h3pmwI9agju603AFWI_z10v_el44CFJPh1ipNN_sGglTVQDuiPif-jcwWL94zUnp9cIMFwKZ65OaHhCeYGBDIibHJtVcNwLm38NmH08ukHJAOB6swAQveONOF0tamqP_sofSFQxL2EiyWesRVPlEcDQNdMVUpBvt2g_aSgG7Iw6Ow==" download>Download</a>
+	</video>
+</div>
   </Hero>
 
   <!-- Note Widget ******************* -->
