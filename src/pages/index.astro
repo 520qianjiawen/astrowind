@@ -21,26 +21,23 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-<Hero
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Get now',
-      href: 'https://www.recyclemachine.net',
-      target: '_blank',
-      icon: 'tabler:download',
-    },
-    { text: 'Learn more', href: '#features' },
-  ]}
->
-  <video width="100%" height="auto" controls>
-    <source src="https://dl-a10b-0861.mypikpak.com/download/?fid=n5CHMujCn2MOB4UQDA9DVSBNc1Q3op-GGx4bD4drW6UShM3tLwrZvdeJ2Q3W96fmveudH7lIdVfx38c4jgdOLWDoZzT-vUu_tJ2oJhKlEDU=&from=5&verno=3&prod=pikpak&expire=1725788072&g=E26534DD7162510118FFA42C600C8AE6CED3F7B2&ui=ZtwY6vIIvfz61IcM&t=0&ms=6300000&th=6300000&f=20572576&alt=0&us=0&hspu=&po=0&fileid=VO6Ap7qkMmMdW3d3AbLn2SLKo1&userid=ZtwY6vIIvfz61IcM&pr=XQPkPvr9WWiIuMvELmrVeukCcCGIprqGJg92dLRJncRxaAdE6pBKp_YpWbWhyVkzMVeyLOyAWjW-0_PCS6KVSw0HT2Ku16aXcuCtc9zQTCEMrkwpLgYF4U3LCSDCgmq6_4nnDGWfdzErPQwkpQzz7rnprOLGCSK-gQyBRx3amBUBOI6k6jdtN37WIP8gC_6RU7H-O2kTmL17z1hT7YEkqNHxhhaVifx0xUxFLf5x8h3pmwI9agju603AFWI_z10v_el44CFJPh1ipNN_sGglTVQDuiPif-jcwWL94zUnp9cIMFwKZ65OaHhCeYGBDIibHJtVcNwLm38NmH08ukHJAOB6swAQveONOF0tamqP_sofSFQxL2EiyWesRVPlEcDQNdMVUpBvt2g_aSgG7Iw6Ow==&sign=2D3306DFF1E9287E19D01B5989AA2432" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <Fragment slot="title">
-    <span class="hidden xl:inline">Rumtoo</span>
-    <span class="text-accent dark:text-white highlight"> Plastic Recycling Machines</span>
-  </Fragment>
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get now',
+        href: 'https://www.recyclemachine.net',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{ src: '~/assets/images/pet-bottle-washing-line.webp', alt: 'pet bottle recycling washing line' }}
+  >
+    <Fragment slot="title">
+      <span class="hidden xl:inline">Rumtoo</span>
+      <span class="text-accent dark:text-white highlight"> Plastic Recycling Machines</span>
+    </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
