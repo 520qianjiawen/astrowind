@@ -1,8 +1,16 @@
-<!-- src/components/PlyrVideo.astro -->
+---
+// 允许通过属性传递视频的 URL
+export interface Props {
+  videoUrl: string;
+}
+
+const { videoUrl } = Astro.props;
+---
+
 <div class="video-player">
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
   <video id="player" controls>
-    <source src="YOUR_VIDEO_URL" type="video/mp4">
+    <source src={videoUrl} type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
