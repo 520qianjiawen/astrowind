@@ -28,9 +28,9 @@ metadata:
     });
   </script>
 
-In this video, we take you through the comprehensive process of washing PP PE rigid regrinds, showcasing the efficiency and effectiveness of the entire system. The video begins with the **High-Speed Friction Washer**, where intense friction removes contaminants and prepares the material for further cleaning. Next, we demonstrate the **Sink-Float Separation** stage, a critical step that separates heavier contaminants from the plastic using differences in density. 
+In this video, we take you through the comprehensive process of washing PP PE rigid regrinds, showcasing the efficiency and effectiveness of the entire system. The video begins with the [**High-Speed Friction Washer**](https://www.recyclemachine.net/high-speed-friction-washerefficient-plastic-recycling/.html), where intense friction removes contaminants and prepares the material for further cleaning. Next, we demonstrate the [**Sink-Float Separation**](https://www.recyclemachine.net/sink-float-separation-tank/.html) stage, a critical step that separates heavier contaminants from the plastic using differences in density. 
 
-Following this, the regrinds are transported by a **Screw Conveyor**, ensuring a smooth transition to the next phase. The material then enters the **Centrifugal Dryer**, where high-speed rotation removes moisture, reducing the water content significantly. 
+Following this, the regrinds are transported by a [**Screw Conveyor**](https://www.recyclemachine.net/screw-conveyor/.html), ensuring a smooth transition to the next phase. The material then enters the [**Centrifugal Dryer**](https://www.recyclemachine.net/centrifugal-dryer-dewatering-machine/.html), where high-speed rotation removes moisture, reducing the water content significantly. 
 
 To ensure the material is completely dry, it passes through a **Hot Air Dryer**, where warm air is circulated around the material, eliminating any remaining moisture. Finally, the cleaned and dried regrinds are collected in a **Material Silo**, ready for further processing or packaging.
 
