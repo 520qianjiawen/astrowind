@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Rumtoo
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 PP PE Film Washing Line supplier & manufacturer in Zhangjiagang, China. Provider of plastic recycling machinery for washing LDPE film, non-woven bags, packaging bags, etc."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Rumtoo
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@Rumtoo_Machine'
+    site: '@Rumtoo_Machine'
     cardType: summary_large_image
 
 i18n:
