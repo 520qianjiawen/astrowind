@@ -4,7 +4,7 @@ author: John Smith
 title: PP PE Rigid Regrinds Washing Line
 excerpt: Discover the step-by-step process of washing PP PE rigid regrinds in our detailed video, featuring advanced cleaning and drying systems.
 image: /images/PP-PE-Rigid-Regrinds-Washing-Line.webp
-category: Tutorials
+category: Recycling Washing Line
 tags:
   - pp pe recycling
   - recycling machine

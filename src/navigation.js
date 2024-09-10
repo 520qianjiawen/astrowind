@@ -94,20 +94,20 @@ export const headerData = {
           href: getBlogPermalink(),
         },
         {
-         // text: 'Article',
-         //href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Recycling Washing Line',
+          href: getPermalink('Recycling Washing Line', 'category'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'Plastic Pelletizing',
+          href: getPermalink('Plastic Pelletizing', 'category'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Plastic Granulator',
+          href: getPermalink('Plastic Granulator', 'category'),
         },
         {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          text: 'Recycling Guide',
+          href: getPermalink('Recycling Guide', 'category'),
         },
       ],
     },
@@ -122,7 +122,7 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'recycling machine',
       links: [
         { text: 'Features', href: '#' },
         { text: 'Security', href: '#' },
