@@ -87,14 +87,15 @@ export const headerData = {
     },
     {
       text: 'Blog',
+      href: getBlogPermalink(),
       links: [
         {
           text: 'Blog List',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+         // text: 'Article',
+         //href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
           text: 'Article (with MDX)',
@@ -115,7 +116,7 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
   ],
-  actions: [{ text: 'Download', href: '', target: '_blank' }],
+  actions: [{ text: 'E-mail', href: 'mailto:sales@recyclemachine.net', target: '_blank' }],
 };
 
 export const footerData = {
