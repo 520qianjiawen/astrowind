@@ -95,19 +95,19 @@ export const headerData = {
         },
         {
           text: 'Recycling Washing Line',
-          href: getPermalink('Recycling Washing Line', 'category'),
+          href: getPermalink('recycling-washing-line', 'category'),
         },
         {
           text: 'Plastic Pelletizing',
-          href: getPermalink('Plastic Pelletizing', 'category'),
+          href: getPermalink('plastic-pelletizing', 'post'),
         },
         {
           text: 'Plastic Granulator',
-          href: getPermalink('Plastic Granulator', 'category'),
+          href: getPermalink('plastic-granulator', 'category'),
         },
         {
           text: 'Recycling Guide',
-          href: getPermalink('Recycling Guide', 'category'),
+          href: getPermalink('recycling-guide', 'category'),
         },
       ],
     },
