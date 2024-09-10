@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Complete Solution',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -43,10 +43,6 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
           text: 'Terms',
           href: getPermalink('/terms'),
         },
@@ -57,7 +53,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Recycling Products',
       links: [
         {
           text: 'Lead Generation',
