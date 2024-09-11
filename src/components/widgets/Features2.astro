@@ -26,15 +26,14 @@ const {
     columns={columns}
     defaultIcon={defaultIcon}
     classes={{
-      container: 'gap-4 md:gap-6',
+      container: 'gap-8 md:gap-12',
       panel:
-        'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6',
-      // panel:
-      //   "text-center bg-page items-center md:text-left rtl:md:text-right md:items-start p-6 p-6 rounded-md shadow-xl dark:shadow-none dark:border dark:border-slate-800",
-      icon: 'w-12 h-12 mb-6 text-primary',
+        'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6 flex flex-col h-full',
+      title: 'text-xl font-bold mt-4',
+      description: 'text-muted mt-2',
+      icon: 'w-16 h-16 mb-6 text-primary',
       ...((classes?.items as Record<string, never>) ?? {}),
     }}
-    imageClass="w-12 h-12 mb-6 object-cover" // 添加这一行来设置图片样式
-
+    imageClass="w-full h-48 object-cover object-center mb-4 rounded-lg" // 调整图片样式
   />
 </WidgetWrapper>
