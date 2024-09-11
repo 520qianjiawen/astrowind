@@ -4,11 +4,8 @@ export const headerData = {
   links: [
     {
       text: 'Home',
-      href: getPermalink('/homes'), // 或者你想要的首页链接
+      href: getPermalink('/homes'),
     },
-  ],
-  // 你可以在这里添加其他的链接
-};
     {
       text: 'Complete Solution',
       links: [
