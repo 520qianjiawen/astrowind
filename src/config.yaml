@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Rumtoo
-    template: '%s — AstroWind'
+    template: '%s — Rumtoo'
   description: "\U0001F680 PP PE Film Washing Line supplier & manufacturer in Zhangjiagang, China. Provider of plastic recycling machinery for washing LDPE film, non-woven bags, packaging bags, etc."
   robots:
     index: true
