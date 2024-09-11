@@ -4,7 +4,7 @@ export const headerData = {
   links: [
     {
       text: 'Home',
-      href: getPermalink('/homes'),
+      href: getPermalink('/home'),
     },
     {
       text: 'Complete Solution',
