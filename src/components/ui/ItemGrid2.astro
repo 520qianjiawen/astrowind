@@ -12,7 +12,8 @@ const {
   title: titleClass = '',
   description: descriptionClass = '',
   icon: defaultIconClass = 'text-primary',
-  image: imageClass = 'w-full h-48 object-cover object-center mb-4', // 调整图片大小和边距
+  image: imageClass = 'w-full h-48 object-cover object-center',
+  content: contentClass = 'p-6', // 新增内容容器类
 } = classes;
 ---
 
@@ -35,25 +36,25 @@ const {
       {items.map(({ title, description, icon, image, callToAction, classes: itemClasses = {} }) => (
         <div class={twMerge('relative flex flex-col h-full', panelClass, itemClasses?.panel)}>
           {image ? (
-            <div class="w-full overflow-hidden rounded-lg">
+            <div class="w-full">
               <img src={image} alt={title} class={twMerge(imageClass, itemClasses?.image)} />
             </div>
           ) : (icon || defaultIcon) && (
-            <div class="mb-4 flex items-center justify-center">
+            <div class="p-6 flex items-center justify-center">
               <Icon name={icon || defaultIcon} class={twMerge('w-16 h-16', defaultIconClass, itemClasses?.icon)} />
             </div>
           )}
-          <div class="flex-grow">
-            <h3 class={twMerge('text-xl font-bold mt-4', titleClass, itemClasses?.title)}>{title}</h3>
+          <div class={twMerge('flex-grow', contentClass, itemClasses?.content)}>
+            <h3 class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</h3>
             {description && (
               <p class={twMerge('text-muted mt-2', descriptionClass, itemClasses?.description)} set:html={description} />
             )}
+            {callToAction && (
+              <div class="mt-4">
+                <Button {...callToAction} />
+              </div>
+            )}
           </div>
-          {callToAction && (
-            <div class="mt-4">
-              <Button {...callToAction} />
-            </div>
-          )}
         </div>
       ))}
     </div>
