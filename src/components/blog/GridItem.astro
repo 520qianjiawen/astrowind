@@ -18,20 +18,20 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 ---
 
 <article class="mb-6 transition">
-  <div class="relative md:h-64 bg-gray-400 dark:bg-slate-700 rounded shadow-lg mb-6">
+  <div class="relative overflow-hidden rounded shadow-lg mb-6" style="padding-top: 56.25%;">
     {
       image &&
         (link ? (
-          <a href={link}>
+          <a href={link} class="absolute inset-0">
             <Image
               src={image}
-              class="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+              class="w-full h-full object-cover rounded shadow-lg bg-gray-400 dark:bg-slate-700"
               widths={[400, 900]}
               width={400}
               sizes="(max-width: 900px) 400px, 900px"
               alt={post.title}
               aspectRatio="16:9"
-              layout="cover"
+              layout="fill"
               loading="lazy"
               decoding="async"
             />
@@ -39,13 +39,13 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         ) : (
           <Image
             src={image}
-            class="w-full md:h-full rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+            class="absolute inset-0 w-full h-full object-cover rounded shadow-lg bg-gray-400 dark:bg-slate-700"
             widths={[400, 900]}
             width={400}
             sizes="(max-width: 900px) 400px, 900px"
             alt={post.title}
             aspectRatio="16:9"
-            layout="cover"
+            layout="fill"
             loading="lazy"
             decoding="async"
           />
