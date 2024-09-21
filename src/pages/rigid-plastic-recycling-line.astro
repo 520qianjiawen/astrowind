@@ -12,18 +12,27 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
+  <!-- Hero Widget -->
   <Hero
     tagline="Rigid Plastic Recycling Lines"
     title="Efficient Recycling Solutions for HDPE, PP, and PS Plastics"
     subtitle="Our rigid plastic recycling plant offers a quick and easy solution for recycling dirty rigid plastics such as HDPE bottles, pipes, and more. With capacities ranging from 500 kg/hr to 2000 kg/hr, our solutions are customizable to meet your needs."
     actions={[{ variant: 'primary', target: '_blank', text: 'Get a Quote', href: '/contact' }]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'Plastic Recycling Image',
-    }}
-  />
+  >
+    <Fragment slot="image">
+      <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+      <video id="player" controls autoplay muted>
+        <source src="https://video.kn95.cc/Plastic%20Rigid%20Plastic%20Recycling%20Washing%20Line.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const player = new Plyr('#player');
+        });
+      </script>
+    </Fragment>
+  </Hero>
 
   <!-- Features2 Widget ************** -->
 
