@@ -167,6 +167,27 @@ const metadata = {
     </Fragment>
   </Content>
 
+    <!-- 新增的图片展示模块 -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Recycling Process and Output</h2>
+        <p class="text-center mb-12">From raw materials to finished products: See our recycling line in action</p>
+        
+        <div class="flex flex-col items-center">
+          <div class="main-image mb-8">
+            <img id="mainImage" src="https://video.kn95.cc/equipment/Rigid%20Plastic%20Washing%20Line%20For%20PP%2C%20HDPE%2C%20PVC.webp" alt="Rigid Plastic Recycling Lines For HDPE, PP, PS Plastics" class="w-full h-auto rounded-lg shadow-lg">
+          </div>
+          <div class="thumbnails flex justify-center space-x-4 overflow-x-auto w-full">
+            <img src="https://video.kn95.cc/equipment/Sink%20Float%20Separation%20Tank.webp" alt="Floating Separation Tank" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+            <img src="https://video.kn95.cc/equipment/Friction%20Washer.webp" alt="Friction Washer" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+            <img src="https://video.kn95.cc/equipment/Wet%20Crusher.webp" alt="Wet Plastic Granulator" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+            <img src="https://video.kn95.cc/equipment/Centrifugal%20Dryer%20Dewatering.webp" alt="Centrifugal Dryer Dewatering" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+            <img src="https://video.kn95.cc/equipment/Zig-Zag%20Air%20Classifier.webp" alt="Zig-Zag Air Classifier" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
@@ -222,3 +243,21 @@ const metadata = {
     subtitle="Ready to take your recycling processes to the next level? Contact us for custom solutions tailored to your needs."
   />
 </Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const mainImage = document.getElementById('mainImage');
+    const thumbnails = document.querySelectorAll('.thumbnail');
+
+    thumbnails.forEach(thumbnail => {
+      thumbnail.addEventListener('click', function() {
+        mainImage.src = this.src.replace('w=300', 'w=1740');
+        mainImage.alt = this.alt;
+        
+        // 添加选中效果
+        thumbnails.forEach(thumb => thumb.classList.remove('ring-2', 'ring-blue-500'));
+        this.classList.add('ring-2', 'ring-blue-500');
+      });
+    });
+  });
+</script>

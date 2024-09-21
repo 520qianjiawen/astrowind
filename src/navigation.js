@@ -9,10 +9,7 @@ export const headerData = {
     {
       text: 'Complete Solution',
       links: [
-        {
-          text: 'Features',
-          href: getPermalink('/#features'),
-        },
+
         {
           text: 'Rigid Plastic Recycling Lines',
           href: getPermalink('/rigid-plastic-recycling-line'),
