@@ -10,12 +10,12 @@ export const headerData = {
       text: 'Complete Solution',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Features',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Rigid Plastic Recycling Lines',
+          href: getPermalink('/rigid-plastic-recycling-line'),
         },
         {
           text: 'Pricing',

@@ -1,0 +1,215 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Rigid Plastic Recycling Lines For HDPE, PP, PS Plastics',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Rigid Plastic Recycling Lines"
+    title="Efficient Recycling Solutions for HDPE, PP, and PS Plastics"
+    subtitle="Our rigid plastic recycling plant offers a quick and easy solution for recycling dirty rigid plastics such as HDPE bottles, pipes, and more. With capacities ranging from 500 kg/hr to 2000 kg/hr, our solutions are customizable to meet your needs."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Get a Quote', href: '/contact' }]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Plastic Recycling Image',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Working Principle"
+    subtitle="Explore how our recycling lines work to efficiently process rigid plastics."
+    columns={3}
+    items={[
+      {
+        title: 'Bale Breaker',
+        description:
+          'Opens bales of input material to ensure smooth and continuous material flow.',
+      },
+      {
+        title: 'Plastic Shredder',
+        description:
+          'Shreds bulky plastic into large pieces, making it easier for further processing.',
+      },
+      {
+        title: 'Plastic Granulator',
+        description: 'Further reduces plastic size after shredding for efficient washing and cleaning.',
+      },
+      {
+        title: 'Friction Screw Washer',
+        description: 'Cleans and transports materials while removing contaminants.',
+      },
+      {
+        title: 'Sink Float Separation Tank',
+        description: 'Separates dirt, rocks, and metals from plastic materials.',
+      },
+      {
+        title: 'Thermal Dryer System',
+        description: 'Removes moisture from cleaned plastic, reducing it to below 3%.',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: 'PP Regrind',
+        description:
+          'Used in plastic chairs, baskets, and bottle caps due to its durability and strength.',
+      },
+      {
+        title: 'HDPE Regrind',
+        description:
+          'Commonly found in containers, pipes, and bottles for its impact resistance and chemical durability.',
+      },
+      {
+        title: 'PVC Regrind',
+        description:
+          'Used in pipes, window frames, and flooring for its durability and adaptability.',
+      },
+      {
+        title: 'ABS Regrind',
+        description:
+          'Found in automotive parts and electronics housings due to its toughness and surface finish.',
+      },
+      {
+        title: 'PET Regrind',
+        description:
+          'Widely used in bottles and packaging for its strength and clarity, ideal for preserving freshness.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Regrind Plastic Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Additional Information</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Screw Feeder',
+        description:
+          'Conveys and filters materials while cleaning sediment with high durability.',
+      },
+      {
+        title: 'Wet Plastic Granulator',
+        description:
+          'Efficient cutting and pre-cleaning of plastic bottles and rigid materials with customizable blade options.',
+      },
+      {
+        title: 'Friction Washer',
+        description:
+          'Provides thorough cleaning of plastic materials using friction-based cleaning and water.',
+      },
+      {
+        title: 'Floating Separation Tank',
+        description:
+          'Separates PP and PE plastics from contaminants while simultaneously cleaning the materials.',
+      },
+      {
+        title: 'Hot Washer',
+        description:
+          'Removes oils and stubborn contaminants from PET and HDPE flakes through hot chemical baths.',
+      },
+      {
+        title: 'Centrifugal Dryer',
+        description:
+          'Removes moisture from plastic regrinds using high-speed rotation, reducing moisture content by 20-30%.',
+      },
+      {
+        title: 'Thermal Dryer',
+        description:
+          'Uses hot air to remove moisture, reducing it to below 3%, ideal for final processing.',
+      },
+      {
+        title: 'Zig-Zag Air Classifier',
+        description:
+          'Separates lightweight contaminants like labels and provides partial drying for PET bottle recycling lines.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Plastic Recycling Components',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Key Components</h3>
+    </Fragment>
+  </Content>
+
+  <!-- Testimonials Widget *********** -->
+
+  <Testimonials
+    title="Customer Feedback"
+    testimonials={[
+      {
+        testimonial: `Our facility has seen a tremendous increase in efficiency since integrating the rigid plastic recycling lines. The final product quality is consistently high.`,
+        name: 'John Doe',
+        job: 'Plant Manager',
+        image: {
+          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
+          alt: 'John Doe',
+        },
+      },
+      {
+        testimonial: `The customization options allowed us to perfectly fit the recycling lines into our facility's needs. We couldn't be more satisfied with the results.`,
+        name: 'Jane Smith',
+        job: 'Operations Manager',
+        image: {
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Jane Smith',
+        },
+      },
+      {
+        testimonial: `The technology and customer support have been outstanding. We've significantly reduced water and energy consumption while increasing output.`,
+        name: 'Mark Johnson',
+        job: 'Sustainability Director',
+        image: {
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+          alt: 'Mark Johnson',
+        },
+      },
+    ]}
+    callToAction={{
+      target: '_blank',
+      text: 'Read more testimonials...',
+      href: '#',
+      icon: 'tabler:chevron-right',
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contact Us',
+        href: '/contact',
+      },
+    ]}
+    title="Upgrade Your Plastic Recycling Today"
+    subtitle="Ready to take your recycling processes to the next level? Contact us for custom solutions tailored to your needs."
+  />
+</Layout>
