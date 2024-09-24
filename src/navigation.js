@@ -36,8 +36,8 @@ export const headerData = {
       text: 'Recycling Products',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Sink Float Tank',
+          href: getPermalink('/products/sink-float-tank'),
         },
         {
           text: 'Long-form Sales',

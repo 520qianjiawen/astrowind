@@ -1,0 +1,125 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features from '~/components/widgets/Features.astro';
+
+const metadata = {
+  title: 'Sink-Float Separation Tank | Rumtoo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Industrial Recycling Solutions"
+    title="Sink-Float Separation Tank"
+    subtitle="Efficient segregation of materials in PET recycling process"
+    actions={[
+      { variant: 'primary', text: 'Get a Quote', href: '#inquire', icon: 'tabler:file-invoice' },
+      { text: 'Learn More', href: '#features' },
+    ]}
+    image={{
+      src: 'https://video.kn95.cc/equipment/Sink%20Float%20Separation%20Tank.webp',
+      alt: 'Sink-Float Separation Tank',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+  <Features
+    id="features"
+    tagline="Key Features"
+    title="Why Choose Our Sink-Float Separation Tank?"
+    subtitle="Discover the advanced capabilities that set our product apart"
+    items={[
+      {
+        title: 'Efficient Separation',
+        description: 'Utilizes water density to separate PET from PP/PE materials',
+        icon: 'tabler:separator-horizontal',
+      },
+      {
+        title: 'Durable Construction',
+        description: 'Interior and rotating drums made from corrosion-resistant Type 304 Stainless Steel',
+        icon: 'tabler:building-factory-2',
+      },
+      {
+        title: 'Customizable Length',
+        description: 'Available in 4-meter standard or 6-meter extended versions',
+        icon: 'tabler:ruler-2',
+      },
+      {
+        title: 'Powerful Motors',
+        description: 'Equipped with high-performance screw conveyor and rotating drum motors',
+        icon: 'tabler:engine',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+  <Content
+    id="working-principle"
+    title="Working Principle"
+    subtitle="Understanding the science behind our Sink-Float Separation Tank"
+    items={[
+      {
+        title: 'Density-Based Separation',
+        description: `Our tank uses water's density (1 g/cm³) to separate materials. PET sinks while PP/PE floats.`,
+      },
+      {
+        title: 'Rotating Drums',
+        description: 'Specially engineered rotating drums move floating materials (contaminants) to a storage silo.',
+      },
+      {
+        title: 'Screw Conveyors',
+        description: 'Bottom-mounted screw conveyors gather and transport sunken PET flakes to the next stage.',
+      },
+    ]}
+    image={{
+      src: 'https://video.kn95.cc/equipment/Sink%20Float%20Separation%20Tank-02.webp',
+      alt: 'Sink-Float Separation Tank working principle illustration',
+    }}
+  />
+
+  <!-- Content Widget **************** -->
+  <Content
+    id="specifications"
+    isReversed
+    title="Technical Specifications"
+    subtitle="Detailed information about our Sink-Float Separation Tank"
+    items={[
+      {
+        title: 'Dimensions',
+        description: 'Interior Width: 1500mm – 2000mm, Total Length: 4 – 6 meters',
+      },
+      {
+        title: 'Materials',
+        description: 'Interior: Type 304 Stainless Steel, Exterior Frame: Carbon Steel',
+      },
+      {
+        title: 'Motors',
+        description: 'Screw Conveyor: 5.5KW + 3.7KW, Rotating Drum: 0.37KW + 2.2KW',
+      },
+    ]}
+    image={{
+      src: 'https://video.kn95.cc/equipment/sink-float-specs.webp',
+      alt: 'Sink-Float Separation Tank specifications diagram',
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+  <CallToAction
+    id="inquire"
+    title="Ready to Optimize Your Recycling Process?"
+    subtitle="Get in touch for the latest prices and lead times on our Sink-Float Separation Tank."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Request a Quote',
+        href: '#',
+        icon: 'tabler:file-invoice',
+      },
+    ]}
+  />
+</Layout>
