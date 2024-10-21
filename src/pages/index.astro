@@ -22,7 +22,7 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    actions=[
+    actions={[
       {
         variant: 'primary',
         text: 'Get now',
@@ -31,8 +31,8 @@ const metadata = {
         icon: 'tabler:recycle',
       },
       { text: 'Learn more', href: '#features' },
-    ]
-    image={{ src: '~/assets/images/pet-bottle-washing-line.webp', alt: 'pet bottle recycling washing line', loading: 'lazy' }}
+    ]}
+    image={{ src: '~/assets/images/pet-bottle-washing-line.webp', alt: 'pet bottle recycling washing line' }}
   >
     <Fragment slot="title">
       <span class="hidden xl:inline">Rumtoo</span>
@@ -54,13 +54,12 @@ const metadata = {
 
   <!-- Plyr Video ******************** -->
 
-  <link rel="preload" href="https://cdn.plyr.io/3.7.2/plyr.css" as="style" />
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
-  <video id="player" controls preload="none" muted>
-    <source src="https://video.kn95.cc/PP%20raffia%20single%20shaft%20shredder(PP%20woven%20bag%20shredder).mp4" type="video/mp4" />
+  <video id="player" controls autoplay muted>
+    <source src="https://video.kn95.cc/PP%20raffia%20single%20shaft%20shredder(PP%20woven%20bag%20shredder).mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <script defer src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+  <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const player = new Plyr('#player');
@@ -74,7 +73,7 @@ const metadata = {
     tagline="Features"
     title="What You Get with Rumtoo Recycling Machinery"
     subtitle="One of the most advanced and comprehensive recycling machine setups currently on the market."
-    items=[
+    items={[
       {
         title: 'Seamless Integration of Machinery',
         description:
@@ -111,7 +110,7 @@ const metadata = {
           'Offering fully customizable lines tailored to meet specific needs regarding input capacity, types of plastics processed, and desired output purity.',
         icon: 'tabler:bulb',
       },
-    ]
+    ]}
   />
 
   <!-- Content Widget **************** -->
@@ -120,7 +119,7 @@ const metadata = {
     isReversed
     tagline="Inside template"
     title="Rumtoo Recycling Machinery: Where Innovation Meets Sustainability!"
-    items=[
+    items={[
       {
         title: 'High-efficiency PE Film Washing Line',
         description:
@@ -136,11 +135,10 @@ const metadata = {
         description:
           'Our separation equipment, including air classifiers and sink/float tanks, efficiently remove contaminants and sort mixed plastics, crucial for producing high-quality recycled materials.',
       },
-    ]
+    ]}
     image={{
       src: '~/assets/images/PP-PE-film-recycling-line.webp',
       alt: 'PP PE film recycling line',
-      loading: 'lazy'
     }}
   >
     <Fragment slot="content">
@@ -157,7 +155,7 @@ const metadata = {
 
   <Content
     isAfterContent
-    items=[
+    items={[
       {
         title: 'Customizable washing lines',
         description: `We offer tailor-made washing lines for various plastics, including PE films and PET bottles, designed to meet your specific capacity and quality requirements.`,
@@ -177,11 +175,10 @@ const metadata = {
         description:
           'Our single and twin-screw extruders, featuring Heat Wave Stabilizing Technology™, produce consistent, high-quality plastic pellets for various applications.',
       },
-    ]
+    ]}
     image={{
       src: '~/assets/images/plastic-shredder-crusher.webp',
       alt: 'Plastic Shredder and Granulator',
-      loading: 'lazy'
     }}
   >
     <Fragment slot="content">Optimize Your Recycling Process</Fragment>
@@ -196,7 +193,7 @@ const metadata = {
   <Content
     isReversed
     isAfterContent
-    items=[
+    items={[
       {
         title: 'Enhanced Operational Efficiency',
         description:
@@ -216,11 +213,10 @@ const metadata = {
         title: 'Continuous Improvement and Support',
         description: ` Stay ahead of the competition with machines that adapt to new recycling challenges through regular updates and enhancements, supported by our dedicated customer service team.`,
       },
-    ]
+    ]}
     image={{
       src: '~/assets/images/BOPP-Film-Recycling-Granulating-Line.webp',
       alt: 'BOPP Film Recycling Granulating Line',
-      loading: 'lazy'
     }}
   >
     <Fragment slot="content">Maximize Your Output and Profitability.</Fragment>
@@ -234,7 +230,7 @@ const metadata = {
 
   <Steps
     title="Get Your Recycling Plant Up and Running with Rumtoo."
-    items=[
+    items={[
       {
         title: 'Step 1: <span class="font-medium">Consultation</span>',
         description:
@@ -257,11 +253,10 @@ const metadata = {
         title: 'Ready!',
         icon: 'tabler:check',
       },
-    ]
+    ]}
     image={{
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
-      loading: 'lazy'
     }}
   />
   
@@ -271,11 +266,11 @@ const metadata = {
     title="Plastic Recycle Materials"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
     tagline="Components"
-    items=[
+    items={[
       {
         title: 'PET Bottle Pellets',
         description: "PET bottle pellets are created after the recycling and pelletizing process of used PET bottles. These light blue transparent flakes and dark blue uniform pellets can be used to manufacture new bottles, textiles, or other products, giving old PET a new life.",
-        image: 'https://video.kn95.cc/Recycle%20Materials/PET%20Bottle%20Pellets.webp',
+        image: 'https://video.kn95.cc/Recycle%20Materials/PET%20Bottle%20Pellets.webp', // 使用图片
       },
       {
         title: 'Artificial Turf Pellets',
@@ -322,7 +317,7 @@ const metadata = {
         description: "Removing labels from PET bottles is an essential step in the recycling process. Clean, label-free PET bottles are processed into flakes or pellets, which can be reused in manufacturing new plastic products like fibers, bottles, and packaging materials.",
         image: 'https://video.kn95.cc/PET%20bottle%20label%20removal.webp',
       },
-    ]
+    ]}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -344,7 +339,7 @@ const metadata = {
     subtitle="Dive into the following questions to gain insights into the powerful features that Rumtoo Recycling offers and how it can elevate your plastic recycling operations."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
-    items=[
+    items={[
       {
         title: 'Why choose Rumtoo Recycling?',
         description:
@@ -375,24 +370,24 @@ const metadata = {
         description:
           "We welcome you to contact our customer service team via email or phone at any time. We are dedicated to answering any questions and providing the support you need.",
       },
-    ]
+    ]}
   />
 
   <!-- Stats Widget ****************** -->
 
   <Stats
-    stats=[
+    stats={[
       { title: 'Downloads', amount: '132K' },
       { title: 'Stars', amount: '24.8K' },
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
-    ]
+    ]}
   />
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    actions=[
+    actions={[
       {
         variant: 'primary',
         text: 'Contact',
@@ -400,7 +395,7 @@ const metadata = {
         target: '_blank',
         icon: 'tabler:phone-call',
       },
-    ]
+    ]}
   >
     <Fragment slot="title">
       Inquire&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Now</span>
