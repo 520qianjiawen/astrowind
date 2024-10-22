@@ -40,8 +40,8 @@ export const headerData = {
           href: getPermalink('/products/sink-float-tank'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'Single Shaft Shredder With Arm',
+          href: getPermalink('/products/single-shaft-shredder-with-arm'),
         },
         {
           text: 'Click-Through',

@@ -1,0 +1,156 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Content from '~/components/widgets/Content.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Features from '~/components/widgets/Features.astro';
+
+const metadata = {
+  title: 'Single-shaft Shredder with Swing Arm | Rumtoo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Versatile Solution for Shredding Plastics"
+    title="Single-shaft Shredder with Swing Arm"
+    subtitle="Efficient shredding of all types of plastics in large volumes"
+    actions={[{ variant: 'primary', text: 'Request a Quote', href: '#inquire', icon: 'tabler:file-invoice' }]}
+  >
+    <Fragment slot="image">
+      <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+      <video id="player" controls autoplay muted>
+        <source src="https://image.kn95.cc/image/Single%20shaft%20shredder%20with%20swing%20arm.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const player = new Plyr('#player');
+        });
+      </script>
+    </Fragment>
+  </Hero>
+
+
+  <!-- Features Widget *************** -->
+  <Features
+    id="features"
+    tagline="Key Features"
+    title="Why Choose Our Single-shaft Shredder with Swing Arm?"
+    subtitle="Discover the advanced capabilities that set our shredder apart"
+    items={[
+      {
+        title: 'Hydraulic-driven Swing Pusher',
+        description: 'Efficiently pushes objects towards rotary cutters for effective shredding. The hydraulic-driven system ensures a consistent feed rate.',
+        icon: 'tabler:separator-horizontal'
+      },
+      {
+        title: 'Screen Mesh at Outlet',
+        description: 'Controls output granule size; customizable screen mesh available to suit downstream processes.',
+        icon: 'tabler:ruler-2'
+      },
+      {
+        title: 'Replaceable Blades',
+        description: 'Easy blade replacement to minimize downtime. Blades can be reused by rotating sides.',
+        icon: 'tabler:engine'
+      },
+      {
+        title: 'High-Resistant Steel Blades',
+        description: 'Made from SKD11 or D2, these blades provide extended durability.',
+        icon: 'tabler:tool'
+      },
+      {
+        title: 'PLC Control System',
+        description: 'Siemens PLC for simplified operation and automated maintenance diagnostics.',
+        icon: 'tabler:devices'
+      },
+      {
+        title: 'Rotor Auto-reverting Function',
+        description: 'Automatically reverses the rotor when a blockage is detected, preventing damage.',
+        icon: 'tabler:arrow-back'
+      },
+      {
+        title: 'Cooling System',
+        description: 'Maintains optimal hydraulic oil temperature for reliable performance during extended use.',
+        icon: 'tabler:thermometer'
+      }
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+  <Content
+    id="working-principle"
+    title="Innovative Control & Technology"
+    subtitle="Latest technology for centralized control and efficient performance"
+    items={[
+      {
+        title: 'Compact Siemens Control Cabinet',
+        description: 'Allows central control of the shredder and its peripherals—such as conveyor belts, separation technology, and secondary shredders.'
+      },
+      {
+        title: 'Optional Remote Control',
+        description: 'Offers added flexibility during maintenance and operations.'
+      }
+    ]}
+    image={{
+      src: 'https://video.kn95.cc/Single%20shaft%20shredder/Siemens%20PLC.webp',
+      alt: 'Compact Siemens Control Cabinet'
+    }}
+  />
+
+  <!-- Content Widget **************** -->
+  <Content
+    id="applications"
+    isReversed
+    title="Applications"
+    subtitle="Suitable for a wide range of materials and industries"
+    items={[
+      {
+        title: 'Plastics',
+        description: 'Film, woven bags, drums, barrels, pallets, pipes, purgings.'
+      },
+      {
+        title: 'Rubber',
+        description: 'Sheets, pads, car tires, tubes, seals.'
+      },
+      {
+        title: 'Paper Waste',
+        description: 'Cardboard, office paper, kraft paper, packaging material.'
+      },
+      {
+        title: 'Wood',
+        description: 'Pallets, boards, tree branches.'
+      },
+      {
+        title: 'E-Waste',
+        description: 'Circuit boards, hard drives, appliances, cables.'
+      },
+      {
+        title: 'Textiles',
+        description: 'Curtains, clothing, carpets, rags.'
+      }
+    ]}
+    image={{
+      src: 'https://video.kn95.cc/Single%20shaft%20shredder/Single-shaft%20Shredder%20with%20swing%20arm.webp',
+      alt: 'Single-shaft Shredder Applications'
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+  <CallToAction
+    id="inquire"
+    title="Ready to Upgrade Your Shredding Capabilities?"
+    subtitle="Get in touch for the latest prices and lead times on our Single-shaft Shredder with Swing Arm."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Request a Quote',
+        href: '#',
+        icon: 'tabler:file-invoice'
+      }
+    ]}
+  />
+</Layout>
