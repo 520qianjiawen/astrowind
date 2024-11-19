@@ -18,7 +18,7 @@ metadata:
 
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
   <video id="player" controls autoplay muted>
-    <source src="https://video.kn95.cc/PP%20PE%20rigid%20regrinds%20washing%20plant%20in%20PA%2CUSA.mp4" type="video/mp4">
+    <source src="https://video.525.hk/PP%20PE%20rigid%20regrinds%20washing%20plant%20in%20PA%2CUSA.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
