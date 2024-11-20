@@ -13,7 +13,7 @@ tags:
   - plastic washing line
 
 metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  canonical: 
 ---
 
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />

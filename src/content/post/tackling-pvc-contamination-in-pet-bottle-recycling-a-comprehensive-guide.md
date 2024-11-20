@@ -11,7 +11,7 @@ tags:
   - Recycling Techniques
   - PET Flakes Quality
 metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  canonical:
 ---
 
 In the realm of sustainability, PET bottle recycling has emerged as a critical component of mitigating plastic waste and conserving natural resources. As one of the most commonly used plastics, PET (Polyethylene Terephthalate) is valuable for its recyclability; however, the presence of PVC (Polyvinyl Chloride) in the recycling stream poses significant challenges. This article aims to unravel the complexities of PVC contamination in PET bottle recycling and explore practical solutions to ensure the production of high-quality PET flakes.
