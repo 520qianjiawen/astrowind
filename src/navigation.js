@@ -98,25 +98,25 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'recycling machine',
+      title: 'Recyclinganlage',
       links: [
-        { text: 'Features', href: '#' },
+        { text: 'Merkmale', href: '#' }, //特点
        // { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
+       // { text: 'Team', href: '#' },
+       //{ text: 'Enterprise', href: '#' },
        // { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        //{ text: 'Resources', href: '#' },
+        { text: 'Preisgestaltung', href: '#' }, //价格
+        { text: 'Video', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Produkte',
       links: [
-        //{ text: 'Developer API', href: '#' },
-       // { text: 'Partners', href: '#' },
-        //{ text: 'Atom', href: '#' },
-       // { text: 'Electron', href: '#' },
-       // { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Kunststoffwaschlinie', href: '#' },
+        { text: 'Granulator', href: '#' },
+        { text: 'Schredder', href: '#' },
+        { text: 'Kunststoff-Granuliermaschine', href: '#' },
+        { text: 'Horizontale Ballenpresse', href: '#' },
       ],
     },
     {
@@ -130,14 +130,14 @@ export const footerData = {
       ],
     },
     {
-      title: 'Company',
+      title: 'Firma',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Über uns', href: '#' },
         { text: 'Blog', href: '#' },
         //{ text: 'Careers', href: '#' },
         //{ text: 'Press', href: '#' },
         //{ text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
+        { text: 'Kontakt', href: getPermalink('/contact') },
         //{ text: 'Shop', href: '#' },
       ],
     },
