@@ -43,22 +43,22 @@ export const headerData = {
           text: 'Single Shaft Shredder With Arm',
           href: getPermalink('/products/single-shaft-shredder-with-arm'),
         },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+       // {
+         // text: 'Click-Through',
+         // href: getPermalink('/landing/click-through'),
+       // },
+       // {
+         // text: 'Product Details (or Services)',
+          //href: getPermalink('/landing/product'),
+      //  },
+      //  {
+         // text: 'Coming Soon or Pre-Launch',
+          //href: getPermalink('/landing/pre-launch'),
+      //  },
+      //  {
+         // text: 'Subscription',
+         // href: getPermalink('/landing/subscription'),
+      //  },
       ],
     },
     {
