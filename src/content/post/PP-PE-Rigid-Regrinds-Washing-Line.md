@@ -13,7 +13,7 @@ tags:
   - plastic washing line
 
 metadata:
-  canonical: 
+  canonical: "https://recyclingmachine.de/pp-pe-rigid-regrinds-washing-line"
 ---
 
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
