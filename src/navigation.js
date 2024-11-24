@@ -9,7 +9,6 @@ export const headerData = {
     {
       text: 'Schlüsselfertige Lösung',
       links: [
-
         {
           text: 'Hartkunststoff-Recyclinganlagen',
           href: getPermalink('/rigid-plastic-recycling-line'),
@@ -43,52 +42,14 @@ export const headerData = {
           text: 'Einwellen-Shredder mit Schwenkarm',
           href: getPermalink('/products/einwellen-shredder-mit-schwenkarm'),
         },
-       // {
-         // text: 'Click-Through',
-         // href: getPermalink('/landing/click-through'),
-       // },
-       // {
-         // text: 'Product Details (or Services)',
-          //href: getPermalink('/landing/product'),
-      //  },
-      //  {
-         // text: 'Coming Soon or Pre-Launch',
-          //href: getPermalink('/landing/pre-launch'),
-      //  },
-      //  {
-         // text: 'Subscription',
-         // href: getPermalink('/landing/subscription'),
-      //  },
       ],
     },
     {
       text: 'Blog',
       href: getBlogPermalink(),
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-       // {
-         // text: 'Recycling Washing Line',
-          //href: getPermalink('recycling-washing-line', 'category'),
-       // },
-        //{
-         // text: 'Plastic Pelletizing',
-         // href: getPermalink('plastic-pelletizing', 'post'),
-        //},
-        //{
-          //text: 'Plastic Granulator',
-          //href: getPermalink('plastic-granulator', 'category'),
-        //},
-        //{
-          //text: 'Recycling Guide',
-          //href: getPermalink('recycling-guide', 'category'),
-       // },
-      ],
     },
     {
-      text: 'Contact',
+      text: 'Kontakt',
       href: getPermalink('/contact'),
     },
   ],
@@ -100,12 +61,8 @@ export const footerData = {
     {
       title: 'Recyclinganlage',
       links: [
-        { text: 'Merkmale', href: '#' }, //特点
-       // { text: 'Security', href: '#' },
-       // { text: 'Team', href: '#' },
-       //{ text: 'Enterprise', href: '#' },
-       // { text: 'Customer stories', href: '#' },
-        { text: 'Preisgestaltung', href: '#' }, //价格
+        { text: 'Merkmale', href: '#' },
+        { text: 'Preisgestaltung', href: '#' },
         { text: 'Video', href: '#' },
       ],
     },
@@ -123,10 +80,8 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Docs', href: '#' },
-       // { text: 'Community Forum', href: '#' },
         { text: 'Professional Services', href: '#' },
         { text: 'Pricing', href: getPermalink('/pricing') },
-       // { text: 'Status', href: '#' },
       ],
     },
     {
@@ -134,11 +89,7 @@ export const footerData = {
       links: [
         { text: 'Über uns', href: getPermalink('/about') },
         { text: 'Blog', href: '#' },
-        //{ text: 'Careers', href: '#' },
-        //{ text: 'Press', href: '#' },
-        //{ text: 'Inclusion', href: '#' },
         { text: 'Kontakt', href: getPermalink('/contact') },
-        //{ text: 'Shop', href: '#' },
       ],
     },
   ],
