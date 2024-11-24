@@ -1,81 +1,81 @@
 ---
-title: 'Terms and Conditions'
+title: 'Allgemeine Geschäftsbedingungen'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: September 1, 2024
+_Letzte Aktualisierung_: 1. September 2024
 
-Please read these terms and conditions carefully before using Our Service.
+Bitte lesen Sie diese Allgemeinen Geschäftsbedingungen sorgfältig durch, bevor Sie unseren Service nutzen.
 
-## Interpretation and Definitions
+## Auslegung und Definitionen
 
-### Interpretation
+### Auslegung
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Die Wörter, deren Anfangsbuchstabe großgeschrieben ist, haben die unter den folgenden Bedingungen festgelegten Bedeutungen. Die folgenden Definitionen gelten unabhängig davon, ob sie im Singular oder Plural erscheinen.
 
-### Definitions
+### Definitionen
 
-For the purposes of these Terms and Conditions:
+Für die Zwecke dieser Allgemeinen Geschäftsbedingungen:
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Rumtoo Machinery Co., LTD.
+- **Unternehmen** (bezeichnet entweder "das Unternehmen", "Wir", "Uns" oder "Unser" in dieser Vereinbarung) bezieht sich auf Rumtoo Machinery Co., LTD.
 
-- **Service** refers to the Website.
+- **Service** bezieht sich auf die Website.
 
-- **Website** refers to Rumtoo Machinery Co., LTD's official website, accessible from [https://www.rumtoo.com](https://www.rumtoo.com)
+- **Website** bezieht sich auf die offizielle Website von Rumtoo Machinery Co., LTD, zugänglich unter [https://www.rumtoo.com](https://www.rumtoo.com).
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+- **Sie** bezeichnet die Person, die auf den Service zugreift oder ihn nutzt, oder das Unternehmen oder die juristische Person, in deren Namen diese Person auf den Service zugreift oder ihn nutzt, soweit zutreffend.
 
-## Acknowledgment
+## Anerkennung
 
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
+Dies sind die Allgemeinen Geschäftsbedingungen, die die Nutzung dieses Services regeln und die Vereinbarung, die zwischen Ihnen und dem Unternehmen besteht. Diese Allgemeinen Geschäftsbedingungen legen die Rechte und Pflichten aller Benutzer in Bezug auf die Nutzung des Services fest.
 
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+Ihr Zugang zu und die Nutzung des Services setzen Ihre Annahme und Einhaltung dieser Allgemeinen Geschäftsbedingungen voraus. Diese Allgemeinen Geschäftsbedingungen gelten für alle Besucher, Benutzer und andere Personen, die auf den Service zugreifen oder ihn nutzen.
 
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+Durch den Zugriff auf oder die Nutzung des Services erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen einverstanden. Wenn Sie mit einem Teil dieser Allgemeinen Geschäftsbedingungen nicht einverstanden sind, dürfen Sie den Service nicht nutzen.
 
-You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.
+Sie erklären, dass Sie über 18 Jahre alt sind. Das Unternehmen gestattet keine Nutzung des Services durch Personen unter 18 Jahren.
 
-## User Accounts
+## Benutzerkonten
 
-If you create an account on the Website, you are responsible for maintaining the security of your account and its content. You must immediately notify Rumtoo Machinery Co., LTD of any unauthorized uses of your account or any other breaches of security. Rumtoo Machinery Co., LTD will not be liable for any acts or omissions by You, including any damages of any kind incurred as a result of such acts or omissions.
+Wenn Sie ein Konto auf der Website erstellen, sind Sie für die Sicherheit Ihres Kontos und dessen Inhalte verantwortlich. Sie müssen Rumtoo Machinery Co., LTD unverzüglich über unbefugte Nutzungen Ihres Kontos oder andere Sicherheitsverletzungen informieren. Rumtoo Machinery Co., LTD haftet nicht für Handlungen oder Unterlassungen Ihrerseits, einschließlich Schäden jeglicher Art, die aus solchen Handlungen oder Unterlassungen resultieren.
 
-## Intellectual Property
+## Geistiges Eigentum
 
-The Service and its original content (excluding Content provided by You or other users), features and functionality are and will remain the exclusive property of Rumtoo Machinery Co., LTD and its licensors. The Service is protected by copyright, trademark, and other laws of both the Country and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Rumtoo Machinery Co., LTD.
+Der Service und dessen ursprüngliche Inhalte (ausgenommen Inhalte, die von Ihnen oder anderen Benutzern bereitgestellt werden), Funktionen und Funktionalitäten sind und bleiben das ausschließliche Eigentum von Rumtoo Machinery Co., LTD und deren Lizenzgebern. Der Service ist durch Urheberrechts-, Marken- und andere Gesetze des Landes und anderer Länder geschützt. Unsere Marken und Handelsaufmachungen dürfen ohne vorherige schriftliche Zustimmung von Rumtoo Machinery Co., LTD nicht in Verbindung mit Produkten oder Dienstleistungen verwendet werden.
 
-## Links to Other Websites
+## Links zu anderen Websites
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by Rumtoo Machinery Co., LTD.
+Unser Service kann Links zu Websites oder Dienstleistungen Dritter enthalten, die nicht von Rumtoo Machinery Co., LTD betrieben oder kontrolliert werden.
 
-Rumtoo Machinery Co., LTD has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Rumtoo Machinery Co., LTD shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+Rumtoo Machinery Co., LTD hat keine Kontrolle über und übernimmt keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Dienstleistungen Dritter. Sie erkennen ferner an und stimmen zu, dass Rumtoo Machinery Co., LTD nicht direkt oder indirekt für Schäden oder Verluste verantwortlich ist, die durch die Nutzung oder das Vertrauen auf solche Inhalte, Waren oder Dienstleistungen, die auf oder über solche Websites oder Dienstleistungen verfügbar sind, verursacht wurden oder angeblich verursacht wurden.
 
-## Termination
+## Kündigung
 
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+Wir können Ihren Zugang unverzüglich und ohne vorherige Ankündigung oder Haftung aus beliebigen Gründen kündigen oder aussetzen, einschließlich, aber nicht beschränkt auf, wenn Sie gegen diese Allgemeinen Geschäftsbedingungen verstoßen.
 
-Upon termination, Your right to use the Service will cease immediately.
+Nach der Kündigung erlischt Ihr Recht zur Nutzung des Services sofort.
 
-## Limitation of Liability
+## Haftungsbeschränkung
 
-To the maximum extent permitted by applicable law, in no event shall Rumtoo Machinery Co., LTD or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service) even if Rumtoo Machinery Co., LTD or any supplier has been advised of the possibility of such damages.
+Im maximal gesetzlich zulässigen Umfang haften Rumtoo Machinery Co., LTD oder dessen Lieferanten in keinem Fall für besondere, zufällige, indirekte oder Folgeschäden (einschließlich, aber nicht beschränkt auf Schäden durch entgangenen Gewinn, Datenverlust oder andere Informationen, Betriebsunterbrechungen, Personenschäden, Verlust der Privatsphäre, die sich aus oder in irgendeiner Weise im Zusammenhang mit der Nutzung oder Unmöglichkeit der Nutzung des Services ergeben), selbst wenn Rumtoo Machinery Co., LTD oder ein Lieferant über die Möglichkeit solcher Schäden informiert wurde.
 
-## "AS IS" and "AS AVAILABLE" Disclaimer
+## "AS IS" und "AS AVAILABLE" Haftungsausschluss
 
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, Rumtoo Machinery Co., LTD, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service.
+Der Service wird Ihnen "WIE BESEHEN" und "WIE VERFÜGBAR" sowie mit allen Mängeln und ohne jegliche Gewährleistung bereitgestellt. Im maximal gesetzlich zulässigen Umfang lehnt Rumtoo Machinery Co., LTD im eigenen Namen und im Namen seiner verbundenen Unternehmen sowie deren jeweiligen Lizenzgeber und Dienstanbieter ausdrücklich alle ausdrücklichen, stillschweigenden, gesetzlichen oder sonstigen Garantien in Bezug auf den Service ab.
 
-## Governing Law
+## Anwendbares Recht
 
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+Die Gesetze des Landes, mit Ausnahme der Kollisionsnormen, regeln diese Allgemeinen Geschäftsbedingungen und Ihre Nutzung des Services. Ihre Nutzung der Anwendung kann auch anderen lokalen, staatlichen, nationalen oder internationalen Gesetzen unterliegen.
 
-## Changes to These Terms and Conditions
+## Änderungen dieser Allgemeinen Geschäftsbedingungen
 
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. What constitutes a material change will be determined at Our sole discretion.
+Wir behalten uns das Recht vor, diese Bedingungen nach eigenem Ermessen jederzeit zu ändern oder zu ersetzen. Was als wesentliche Änderung gilt, wird nach unserem alleinigen Ermessen bestimmt.
 
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
+Indem Sie weiterhin auf unseren Service zugreifen oder ihn nutzen, nachdem diese Änderungen wirksam geworden sind, erklären Sie sich mit den überarbeiteten Bedingungen einverstanden. Wenn Sie mit den neuen Bedingungen nicht einverstanden sind, stellen Sie bitte die Nutzung der Website und des Services ein.
 
-## Contact Us
+## Kontakt
 
-If you have any questions about these Terms and Conditions, You can contact us:
+Wenn Sie Fragen zu diesen Allgemeinen Geschäftsbedingungen haben, können Sie uns kontaktieren:
 
-- By email: sales@rumtoo.com
-- By visiting this page on our website:[https://www.rumtoo.com](https://www.rumtoo.com)
+- Per E-Mail: sales@rumtoo.com
+- Indem Sie diese Seite auf unserer Website besuchen: [https://www.rumtoo.com](https://www.rumtoo.com)
