@@ -125,14 +125,14 @@ export const footerData = {
         { text: 'Docs', href: '#' },
        // { text: 'Community Forum', href: '#' },
         { text: 'Professional Services', href: '#' },
-       // { text: 'Skills', href: '#' },
+        { text: 'Pricing', href: getPermalink('/pricing') },
        // { text: 'Status', href: '#' },
       ],
     },
     {
       title: 'Firma',
       links: [
-        { text: 'Über uns', href: '#' },
+        { text: 'Über uns', href: getPermalink('/about') },
         { text: 'Blog', href: '#' },
         //{ text: 'Careers', href: '#' },
         //{ text: 'Press', href: '#' },
