@@ -11,7 +11,7 @@ export const headerData = {
       links: [
         {
           text: 'Hartkunststoff-Recyclinganlagen',
-          href: getPermalink('/rigid-plastic-recycling-line'),
+          href: getPermalink('/hartkunststoff-recyclinganlagen'),
         },
         {
           text: 'PET-Flaschen-Recycling-Waschanlage',

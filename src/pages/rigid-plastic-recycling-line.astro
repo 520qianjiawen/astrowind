@@ -7,257 +7,236 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Rigid Plastic Recycling Lines For HDPE, PP, PS Plastics',
+ title: 'Hartkunststoff-Recyclinganlagen für HDPE, PP, PS Kunststoffe',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget -->
-  <Hero
-    tagline="Rigid Plastic Recycling Lines"
-    title="Efficient Recycling Solutions for HDPE, PP, and PS Plastics"
-    subtitle="Our rigid plastic recycling plant offers a quick and easy solution for recycling dirty rigid plastics such as HDPE bottles, pipes, and more. With capacities ranging from 500 kg/hr to 2000 kg/hr, our solutions are customizable to meet your needs."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Get a Quote', href: '/contact' }]}
-  >
-    <Fragment slot="image">
-      <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
-      <video id="player" controls autoplay muted>
-        <source src="https://video.525.hk/Plastic%20Rigid%20Plastic%20Recycling%20Washing%20Line.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
-      <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          const player = new Plyr('#player');
-        });
-      </script>
-    </Fragment>
-  </Hero>
+ <!-- Hero Widget -->
+ <Hero
+   tagline="Hartkunststoff-Recyclinganlagen"
+   title="Effiziente Recyclinglösungen für HDPE, PP und PS Kunststoffe"
+   subtitle="Unsere Hartkunststoff-Recyclinganlage bietet eine schnelle und einfache Lösung für das Recycling verschmutzter Hartkunststoffe wie HDPE-Flaschen, Rohre und mehr. Mit Kapazitäten von 500 kg/h bis 2000 kg/h sind unsere Lösungen individuell auf Ihre Bedürfnisse anpassbar."
+   actions={[{ variant: 'primary', target: '_blank', text: 'Angebot anfordern', href: '/contact' }]}
+ >
+   <Fragment slot="image">
+     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+     <video id="player" controls autoplay muted>
+       <source src="https://video.525.hk/Plastic%20Rigid%20Plastic%20Recycling%20Washing%20Line.mp4" type="video/mp4">
+       Ihr Browser unterstützt das Video-Tag nicht.
+     </video>
+     <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+     <script>
+       document.addEventListener('DOMContentLoaded', () => {
+         const player = new Plyr('#player');
+       });
+     </script>
+   </Fragment>
+ </Hero>
 
-  <!-- Features2 Widget ************** -->
+ <!-- Features2 Widget ************** -->
+ <Features2
+   title="Funktionsprinzip"
+   subtitle="Erfahren Sie, wie unsere Recyclinglinien Hartkunststoffe effizient verarbeiten."
+   columns={3}
+   items={[
+     {
+       title: 'Ballenöffner',
+       description: 'Öffnet Materialballen für einen gleichmäßigen und kontinuierlichen Materialfluss.',
+     },
+     {
+       title: 'Kunststoff-Schredder',
+       description: 'Zerkleinert sperrige Kunststoffe in große Stücke für die weitere Verarbeitung.',
+     },
+     {
+       title: 'Kunststoff-Granulator',
+       description: 'Reduziert die Kunststoffgröße nach dem Schreddern für effizientes Waschen und Reinigen.',
+     },
+     {
+       title: 'Friktionsschraubenwäscher',
+       description: 'Reinigt und transportiert Materialien während der Entfernung von Verunreinigungen.',
+     },
+     {
+       title: 'Schwimm-Sink-Trenntank',
+       description: 'Trennt Schmutz, Steine und Metalle von Kunststoffmaterialien.',
+     },
+     {
+       title: 'Thermisches Trocknungssystem',
+       description: 'Entfernt Feuchtigkeit aus gereinigtem Kunststoff auf unter 3%.',
+     },
+   ]}
+ />
 
-  <Features2
-    title="Working Principle"
-    subtitle="Explore how our recycling lines work to efficiently process rigid plastics."
-    columns={3}
-    items={[
-      {
-        title: 'Bale Breaker',
-        description:
-          'Opens bales of input material to ensure smooth and continuous material flow.',
-      },
-      {
-        title: 'Plastic Shredder',
-        description:
-          'Shreds bulky plastic into large pieces, making it easier for further processing.',
-      },
-      {
-        title: 'Plastic Granulator',
-        description: 'Further reduces plastic size after shredding for efficient washing and cleaning.',
-      },
-      {
-        title: 'Friction Screw Washer',
-        description: 'Cleans and transports materials while removing contaminants.',
-      },
-      {
-        title: 'Sink Float Separation Tank',
-        description: 'Separates dirt, rocks, and metals from plastic materials.',
-      },
-      {
-        title: 'Thermal Dryer System',
-        description: 'Removes moisture from cleaned plastic, reducing it to below 3%.',
-      },
-    ]}
-  />
+ <!-- Content Widget **************** -->
+ <Content
+   isReversed
+   items={[
+     {
+       title: 'PP-Mahlgut',
+       description: 'Verwendet in Kunststoffstühlen, Körben und Flaschendeckeln aufgrund seiner Haltbarkeit und Festigkeit.',
+     },
+     {
+       title: 'HDPE-Mahlgut',
+       description: 'Häufig in Behältern, Rohren und Flaschen zu finden wegen seiner Schlagfestigkeit und chemischen Beständigkeit.',
+     },
+     {
+       title: 'PVC-Mahlgut',
+       description: 'Verwendet in Rohren, Fensterrahmen und Bodenbelägen wegen seiner Haltbarkeit und Anpassungsfähigkeit.',
+     },
+     {
+       title: 'ABS-Mahlgut',
+       description: 'Findet sich in Autoteilen und Elektronikgehäusen aufgrund seiner Zähigkeit und Oberflächenbeschaffenheit.',
+     },
+     {
+       title: 'PET-Mahlgut',
+       description: 'Weit verbreitet in Flaschen und Verpackungen wegen seiner Festigkeit und Klarheit, ideal für die Frischhaltung.',
+     },
+   ]}
+   image={{
+     src: 'https://recycling.imgix.net/material/PVC%20Pipe.jpg?w=768&h=768&fit=crop&auto=format&fm=webp',
+     alt: 'PVC-Rohrmaterial',
+   }}
+ >
+   <Fragment slot="content">
+     <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Zusätzliche Informationen</h3>
+   </Fragment>
+ </Content>
 
-  <!-- Content Widget **************** -->
+ <!-- Content Widget **************** -->
+ <Content
+   isAfterContent
+   items={[
+     {
+       title: 'Schneckenförderer',
+       description: 'Fördert und filtert Materialien während der Sedimentreinigung mit hoher Haltbarkeit.',
+     },
+     {
+       title: 'Nass-Kunststoff-Granulator',
+       description: 'Effizientes Schneiden und Vorreinigen von Kunststoffflaschen und Hartmaterialien mit anpassbaren Klingenoptionen.',
+     },
+     {
+       title: 'Friktionswäscher',
+       description: 'Bietet gründliche Reinigung von Kunststoffmaterialien durch friktionsbasierte Reinigung und Wasser.',
+     },
+     {
+       title: 'Schwimmtrenntank',
+       description: 'Trennt PP- und PE-Kunststoffe von Verunreinigungen bei gleichzeitiger Materialreinigung.',
+     },
+     {
+       title: 'Heißwäscher',
+       description: 'Entfernt Öle und hartnäckige Verunreinigungen von PET- und HDPE-Flakes durch heiße chemische Bäder.',
+     },
+     {
+       title: 'Zentrifugaltrockner',
+       description: 'Entfernt Feuchtigkeit aus Kunststoff-Mahlgut durch Hochgeschwindigkeitsrotation, reduziert den Feuchtigkeitsgehalt um 20-30%.',
+     },
+     {
+       title: 'Thermaltrockner',
+       description: 'Verwendet Heißluft zur Feuchtigkeitsreduzierung auf unter 3%, ideal für die Endverarbeitung.',
+     },
+     {
+       title: 'Zickzack-Luftklassierer',
+       description: 'Trennt leichte Verunreinigungen wie Etiketten und bietet teilweise Trocknung für PET-Flaschen-Recyclinglinien.',
+     },
+   ]}
+   image={{
+     src: 'https://recycling.imgix.net/material/rigid%20plastic.jpg?w=768&h=768&fit=crop&auto=format&fm=webp',
+     alt: 'Hartkunststoff',
+   }}
+ >
+   <Fragment slot="content">
+     <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Hauptkomponenten</h3>
+   </Fragment>
+ </Content>
 
-  <Content
-    isReversed
-    items={[
-      {
-        title: 'PP Regrind',
-        description:
-          'Used in plastic chairs, baskets, and bottle caps due to its durability and strength.',
-      },
-      {
-        title: 'HDPE Regrind',
-        description:
-          'Commonly found in containers, pipes, and bottles for its impact resistance and chemical durability.',
-      },
-      {
-        title: 'PVC Regrind',
-        description:
-          'Used in pipes, window frames, and flooring for its durability and adaptability.',
-      },
-      {
-        title: 'ABS Regrind',
-        description:
-          'Found in automotive parts and electronics housings due to its toughness and surface finish.',
-      },
-      {
-        title: 'PET Regrind',
-        description:
-          'Widely used in bottles and packaging for its strength and clarity, ideal for preserving freshness.',
-      },
-    ]}
-    image={{
-      src: 'https://recycling.imgix.net/material/PVC%20Pipe.jpg?w=768&h=768&fit=crop&auto=format&fm=webp',
-      alt: 'PVC Pipe material',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Additional Information</h3>
-    </Fragment>
-  </Content>
+ <!-- 新增的图片展示模块 -->
+ <section class="py-16">
+   <div class="container mx-auto px-4">
+     <h2 class="text-3xl font-bold text-center mb-8">Recyclingprozess und Output</h2>
+     <p class="text-center mb-12">Vom Rohmaterial zum Endprodukt: Sehen Sie unsere Recyclinglinie in Aktion</p>
+     
+     <div class="flex flex-col items-center">
+       <div class="main-image mb-8">
+         <img id="mainImage" src="https://video.525.hk/equipment/Rigid%20Plastic%20Washing%20Line%20For%20PP%2C%20HDPE%2C%20PVC.webp" alt="Hartkunststoff-Recyclinganlagen für HDPE, PP, PS Kunststoffe" class="w-full h-auto rounded-lg shadow-lg">
+       </div>
+       <div class="thumbnails flex justify-center space-x-4 overflow-x-auto w-full">
+         <img src="https://video.525.hk/equipment/Sink%20Float%20Separation%20Tank.webp" alt="Schwimmtrenntank" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+         <img src="https://video.525.hk/equipment/Friction%20Washer.webp" alt="Friktionswäscher" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+         <img src="https://video.525.hk/equipment/Wet%20Crusher.webp" alt="Nass-Kunststoff-Granulator" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+         <img src="https://video.525.hk/equipment/Centrifugal%20Dryer%20Dewatering.webp" alt="Zentrifugaltrockner" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+         <img src="https://video.525.hk/equipment/Zig-Zag%20Air%20Classifier.webp" alt="Zickzack-Luftklassierer" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
+       </div>
+     </div>
+   </div>
+ </section>
 
-  <!-- Content Widget **************** -->
+ <!-- Testimonials Widget *********** -->
+ <Testimonials
+   title="Kundenfeedback"
+   testimonials={[
+     {
+       testimonial: `Unsere Anlage hat seit der Integration der Hartkunststoff-Recyclinglinien eine enorme Effizienzsteigerung erfahren. Die Endproduktqualität ist durchgehend hoch.`,
+       name: 'John Doe',
+       job: 'Werksleiter',
+       image: {
+         src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
+         alt: 'John Doe',
+       },
+     },
+     {
+       testimonial: `Die Anpassungsmöglichkeiten erlaubten es uns, die Recyclinglinien perfekt auf die Bedürfnisse unserer Anlage abzustimmen. Wir könnten mit den Ergebnissen nicht zufriedener sein.`,
+       name: 'Jane Smith',
+       job: 'Betriebsleiterin',
+       image: {
+         src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+         alt: 'Jane Smith',
+       },
+     },
+     {
+       testimonial: `Die Technologie und der Kundenservice waren hervorragend. Wir haben den Wasser- und Energieverbrauch deutlich reduziert und gleichzeitig die Produktion gesteigert.`,
+       name: 'Mark Johnson',
+       job: 'Nachhaltigkeitsdirektor',
+       image: {
+         src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
+         alt: 'Mark Johnson',
+       },
+     },
+   ]}
+   callToAction={{
+     target: '_blank',
+     text: 'Weitere Referenzen...',
+     href: '#',
+     icon: 'tabler:chevron-right',
+   }}
+ />
 
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Screw Feeder',
-        description:
-          'Conveys and filters materials while cleaning sediment with high durability.',
-      },
-      {
-        title: 'Wet Plastic Granulator',
-        description:
-          'Efficient cutting and pre-cleaning of plastic bottles and rigid materials with customizable blade options.',
-      },
-      {
-        title: 'Friction Washer',
-        description:
-          'Provides thorough cleaning of plastic materials using friction-based cleaning and water.',
-      },
-      {
-        title: 'Floating Separation Tank',
-        description:
-          'Separates PP and PE plastics from contaminants while simultaneously cleaning the materials.',
-      },
-      {
-        title: 'Hot Washer',
-        description:
-          'Removes oils and stubborn contaminants from PET and HDPE flakes through hot chemical baths.',
-      },
-      {
-        title: 'Centrifugal Dryer',
-        description:
-          'Removes moisture from plastic regrinds using high-speed rotation, reducing moisture content by 20-30%.',
-      },
-      {
-        title: 'Thermal Dryer',
-        description:
-          'Uses hot air to remove moisture, reducing it to below 3%, ideal for final processing.',
-      },
-      {
-        title: 'Zig-Zag Air Classifier',
-        description:
-          'Separates lightweight contaminants like labels and provides partial drying for PET bottle recycling lines.',
-      },
-    ]}
-    image={{
-      src: ' https://recycling.imgix.net/material/rigid%20plastic.jpg?w=768&h=768&fit=crop&auto=format&fm=webp',
-      alt: ' Rigid Plastic ',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Key Components</h3>
-    </Fragment>
-  </Content>
-
-    <!-- 新增的图片展示模块 -->
-    <section class="py-16">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8">Recycling Process and Output</h2>
-        <p class="text-center mb-12">From raw materials to finished products: See our recycling line in action</p>
-        
-        <div class="flex flex-col items-center">
-          <div class="main-image mb-8">
-            <img id="mainImage" src="https://video.525.hk/equipment/Rigid%20Plastic%20Washing%20Line%20For%20PP%2C%20HDPE%2C%20PVC.webp" alt="Rigid Plastic Recycling Lines For HDPE, PP, PS Plastics" class="w-full h-auto rounded-lg shadow-lg">
-          </div>
-          <div class="thumbnails flex justify-center space-x-4 overflow-x-auto w-full">
-            <img src="https://video.525.hk/equipment/Sink%20Float%20Separation%20Tank.webp" alt="Floating Separation Tank" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
-            <img src="https://video.525.hk/equipment/Friction%20Washer.webp" alt="Friction Washer" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
-            <img src="https://video.525.hk/equipment/Wet%20Crusher.webp" alt="Wet Plastic Granulator" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
-            <img src="https://video.525.hk/equipment/Centrifugal%20Dryer%20Dewatering.webp" alt="Centrifugal Dryer Dewatering" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
-            <img src="https://video.525.hk/equipment/Zig-Zag%20Air%20Classifier.webp" alt="Zig-Zag Air Classifier" class="thumbnail w-32 h-32 object-cover rounded-lg shadow-md cursor-pointer">
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <!-- Testimonials Widget *********** -->
-
-  <Testimonials
-    title="Customer Feedback"
-    testimonials={[
-      {
-        testimonial: `Our facility has seen a tremendous increase in efficiency since integrating the rigid plastic recycling lines. The final product quality is consistently high.`,
-        name: 'John Doe',
-        job: 'Plant Manager',
-        image: {
-          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'John Doe',
-        },
-      },
-      {
-        testimonial: `The customization options allowed us to perfectly fit the recycling lines into our facility's needs. We couldn't be more satisfied with the results.`,
-        name: 'Jane Smith',
-        job: 'Operations Manager',
-        image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Jane Smith',
-        },
-      },
-      {
-        testimonial: `The technology and customer support have been outstanding. We've significantly reduced water and energy consumption while increasing output.`,
-        name: 'Mark Johnson',
-        job: 'Sustainability Director',
-        image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Johnson',
-        },
-      },
-    ]}
-    callToAction={{
-      target: '_blank',
-      text: 'Read more testimonials...',
-      href: '#',
-      icon: 'tabler:chevron-right',
-    }}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Contact Us',
-        href: '/contact',
-      },
-    ]}
-    title="Upgrade Your Plastic Recycling Today"
-    subtitle="Ready to take your recycling processes to the next level? Contact us for custom solutions tailored to your needs."
-  />
+ <!-- CallToAction Widget *********** -->
+ <CallToAction
+   actions={[
+     {
+       variant: 'primary',
+       text: 'Kontaktieren Sie uns',
+       href: '/contact',
+     },
+   ]}
+   title="Verbessern Sie Ihr Kunststoffrecycling noch heute"
+   subtitle="Bereit, Ihre Recyclingprozesse auf die nächste Stufe zu heben? Kontaktieren Sie uns für maßgeschneiderte Lösungen nach Ihren Bedürfnissen."
+ />
 </Layout>
 
 <script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const mainImage = document.getElementById('mainImage');
-    const thumbnails = document.querySelectorAll('.thumbnail');
+ document.addEventListener('DOMContentLoaded', (event) => {
+   const mainImage = document.getElementById('mainImage');
+   const thumbnails = document.querySelectorAll('.thumbnail');
 
-    thumbnails.forEach(thumbnail => {
-      thumbnail.addEventListener('click', function() {
-        mainImage.src = this.src.replace('w=300', 'w=1740');
-        mainImage.alt = this.alt;
-        
-        // 添加选中效果
-        thumbnails.forEach(thumb => thumb.classList.remove('ring-2', 'ring-blue-500'));
-        this.classList.add('ring-2', 'ring-blue-500');
-      });
-    });
-  });
+   thumbnails.forEach(thumbnail => {
+     thumbnail.addEventListener('click', function() {
+       mainImage.src = this.src.replace('w=300', 'w=1740');
+       mainImage.alt = this.alt;
+       
+       thumbnails.forEach(thumb => thumb.classList.remove('ring-2', 'ring-blue-500'));
+       this.classList.add('ring-2', 'ring-blue-500');
+     });
+   });
+ });
 </script>
