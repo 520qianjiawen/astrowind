@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Rumtoo — Kunststoff-Recyclingmaschinen',
+  title: 'Rumtoo — Plastic Recycling Machines',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,28 +25,31 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Jetzt erhalten',
+        text: 'Get now',
         href: 'https://www.recyclemachine.net',
         target: '_blank',
         icon: 'tabler:recycle',
       },
-      { text: 'Mehr erfahren', href: '#features' },
+      { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/pet-bottle-washing-line.webp', alt: 'PET-Flaschen-Recycling-Waschlinie' }}
-  >
-    <Fragment slot="title">
-      <span class="hidden xl:inline">Rumtoo</span>
-      <span class="text-accent dark:text-white highlight"> Kunststoff-Recyclingmaschinen</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">Rumtoo</span> ist führender Hersteller hochwertiger Recyclingmaschinen für PET-Flaschen und PP/PE-Folien</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">Rumtoo: Produktionsbereit.</span>
-      Entdecken Sie, wie unsere fortschrittlichen Kunststoff-Recyclingmaschinen das Abfallmanagement revolutionieren und eine nachhaltige Zukunft schaffen können.
-    </Fragment>
-  </Hero>
+image={{ 
+  src: '~/assets/images/pet-bottle-washing-line.webp', 
+  alt: 'PET-Flaschen-Recycling-Waschanlage' 
+ }}
+ >
+  <Fragment slot="title">
+    <span class="hidden xl:inline">Rumtoo</span>
+    <span class="text-accent dark:text-white highlight"> Kunststoff-Recyclingmaschinen</span>
+  </Fragment>
+ 
+  <Fragment slot="subtitle">
+    <span class="hidden sm:inline">
+      <span class="font-semibold">Rumtoo</span> ist ein führender Hersteller hochwertiger PET-Flaschen- und PP/PE-Folien-Recyclingmaschinen</span
+    >
+    <span class="block mb-1 sm:hidden font-bold text-blue-600">Rumtoo: Produktionsbereit.</span>
+    Entdecken Sie, wie unsere fortschrittlichen Kunststoff-Recyclingmaschinen die Abfallwirtschaft revolutionieren und eine nachhaltige Zukunft schaffen können.
+  </Fragment>
+ </Hero>
 
   <!-- Note Widget ******************* -->
 
@@ -57,7 +60,7 @@ const metadata = {
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
   <video id="player" controls autoplay muted>
     <source src="https://video.525.hk/PP%20raffia%20single%20shaft%20shredder(PP%20woven%20bag%20shredder).mp4" type="video/mp4">
-    Ihr Browser unterstützt das Video-Tag nicht.
+    Your browser does not support the video tag.
   </video>
   <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
   <script>
@@ -66,151 +69,186 @@ const metadata = {
     });
   </script>
 
-  <!-- Features Widget *************** -->
+<!-- Features Widget *************** -->
 
-  <Features
-    id="features"
-    tagline="Funktionen"
-    title="Was Sie mit Rumtoo Recyclingmaschinen erhalten"
-    subtitle="Eines der fortschrittlichsten und umfassendsten Recyclingmaschinensets auf dem Markt."
-    items={[
-      {
-        title: 'Nahtlose Integration von Maschinen',
-        description:
-          'Eine vollständig integrierte Serie von Maschinen, die nahtlos PP/PE-Folien und andere Kunststoffe verarbeiten, einen effizienten Betrieb und hochwertige Ergebnisse vom verschmutzten Material bis zum Pellet gewährleisten.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Modernste Komponenten',
-        description:
-          'Hocheffiziente Komponenten von Ballenöffnern bis hin zu Pelletierern, bereit für den Einsatz in kleinen Produktionsstätten bis hin zu großflächigen Recyclinganlagen.',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Beste Praktiken im Kunststoffrecycling',
-        description:
-          'Maschinen, die entwickelt wurden, um die Reinigung, Trocknung und Wiederverwendung von Kunststoffabfällen zu automatisieren und dabei die höchsten Umwelt- und Betriebsstandards zu erfüllen.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Erhöhte Produktivität durch Innovation',
-        description:
-          'Innovationen wie unsere Nassgranulatoren und Reibungswäscher erhöhen den Durchsatz und verbessern die Reinheit des recycelten Materials, entscheidend für hochwertige Endprodukte.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Engagement für Nachhaltigkeit',
-        description:
-          "Jede Einrichtung ist nicht nur auf Betriebseffizienz ausgelegt, sondern auch darauf, die Umweltbelastung zu reduzieren und einen nachhaltigen Recyclingprozess zu fördern.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Anpassbare Lösungen',
-        description:
-          'Wir bieten vollständig anpassbare Linien, die spezifischen Anforderungen an Eingabekapazität, verarbeitete Kunststofftypen und die gewünschte Reinheit des Endprodukts gerecht werden.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+<Features
+ id="features"
+ tagline="Merkmale"
+ title="Was Sie mit Rumtoo Recyclingmaschinen bekommen"
+ subtitle="Eine der fortschrittlichsten und umfassendsten Recyclingmaschinen-Anlagen auf dem aktuellen Markt."
+ items={[
+   {
+     title: 'Nahtlose Integration der Maschinen',
+     description:
+       'Eine vollständig integrierte Maschinenserie zur nahtlosen Verarbeitung von PP/PE-Folien und anderen Kunststoffen, die einen effizienten Betrieb und hochwertige Ausgabe von verschmutzter Folie bis zur Pelletform gewährleistet.',
+     icon: 'tabler:brand-tailwind',
+   },
+   {
+     title: 'Modernste Komponenten',
+     description:
+       'Hocheffiziente Komponenten von Ballenöffnern bis zu Pelletierern sind einsatzbereit für verschiedene Umgebungen, von kleinen Produktionsanlagen bis zu großen Recyclingwerken.',
+     icon: 'tabler:components',
+   },
+   {
+     title: 'Best Practices im Kunststoffrecycling',
+     description:
+       'Die Maschinen sind für die Handhabung und Automatisierung der Reinigung, Trocknung und Wiederverwertung von Kunststoffabfällen konzipiert und entsprechen den besten Umweltpraktiken und höchsten Betriebsstandards.',
+     icon: 'tabler:list-check',
+   },
+   {
+     title: 'Gesteigerte Produktivität durch Innovation',
+     description:
+       'Innovationen wie unsere Nassgranulierung und Friktionswäscher erhöhen den Durchsatz und verbessern die Reinheit des recycelten Materials, entscheidend für hochwertige Endprodukte.',
+     icon: 'tabler:rocket',
+   },
+   {
+     title: 'Der Nachhaltigkeit verpflichtet',
+     description:
+       'Jede Anlage ist nicht nur für betriebliche Effizienz ausgelegt, sondern auch mit Blick auf die Reduzierung der Umweltbelastung, zur Förderung eines nachhaltigen Recyclingprozesses.',
+     icon: 'tabler:arrows-right-left',
+   },
+   {
+     title: 'Maßgeschneiderte Lösungen',
+     description:
+       'Angebot vollständig anpassbarer Linien, maßgeschneidert für spezifische Anforderungen bezüglich Eingangskapazität, verarbeiteter Kunststoffarten und gewünschter Ausgabereinheit.',
+     icon: 'tabler:bulb',
+   },
+ ]}
+/>
 
-  <!-- Content Widget **************** -->
+<!-- Content Widget **************** -->
 
-  <Content
-    isReversed
-    tagline="Im Fokus"
-    title="Rumtoo Recyclingmaschinen: Wo Innovation auf Nachhaltigkeit trifft!"
-    items={[
-      {
-        title: 'Hocheffiziente PE-Folien-Waschlinie',
-        description:
-          'Unsere PE-Folien-Waschlinie bietet eine Eingangskapazität von 500 kg/h bis zu 3.000 kg/h und verwandelt verschmutzte PP/PE-Folien in saubere, kontaminationsfreie Stücke, die zur Pelletierung bereit sind.',
-      },
-      {
-        title: 'Fortschrittliche Einwellen- und Doppelschnecken-Schredder',
-        description:
-          'Unsere robusten Schredder, die für Schwerlastanwendungen ausgelegt sind, können eine breite Palette von Materialien verarbeiten, darunter Kunststoffballen, Reifen und starre Kunststoffe, mit Kapazitäten von bis zu 2.000 kg/h.',
-      },
-      {
-        title: 'Innovative Trennungstechnologien',
-        description:
-          'Unsere Trennungsgeräte, einschließlich Luftklassierern und Sink-/Schwimmbecken, entfernen Verunreinigungen effizient und sortieren gemischte Kunststoffe, was entscheidend für die Produktion hochwertiger Recyclingmaterialien ist.',
-      },
-    ]}
-    image={{
-      src: '~/assets/images/PP-PE-film-recycling-line.webp',
-      alt: 'PP-PE-Folien-Recyclinglinie',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Innovative Lösungen für Kunststoffrecycling</h3>
-      Nutzen Sie modernste Technologie und jahrzehntelange Erfahrung, um Ihre Recyclingprozesse zu verbessern.
-    </Fragment>
+<Content
+ isReversed
+ tagline="Innenvorlage"
+ title="Rumtoo Recyclingmaschinen: Wo Innovation auf Nachhaltigkeit trifft!"
+ items={[
+   {
+     title: 'Hocheffiziente PE-Folien-Waschanlage',
+     description:
+       'Unsere PE-Folien-Waschanlage bietet eine Eingangskapazität von 500 kg/h bis zu 3.000 kg/h und verwandelt verschmutzte PP/PE-Folien in saubere, kontaminationsfreie Stücke, die zum Pelletieren bereit sind.',
+   },
+   {
+     title: 'Fortschrittliche Ein- und Doppelwellen-Schredder',
+     description:
+       'Unsere robusten Schredder sind für den Schwerlastbetrieb ausgelegt und können eine Vielzahl von Materialien wie Kunststofffolien-Ballen, Reifen und Hartkunststoffe mit Kapazitäten bis zu 2.000 KG/H verarbeiten.',
+   },
+   {
+     title: 'Innovative Trenntechnologien',
+     description:
+       'Unsere Trennanlagen, einschließlich Luftklassierer und Schwimm-Sink-Becken, entfernen effizient Verunreinigungen und sortieren gemischte Kunststoffe - entscheidend für die Produktion hochwertiger Recyclingmaterialien.',
+   },
+ ]}
+ image={{
+   src: '~/assets/images/PP-PE-film-recycling-line.webp',
+   alt: 'PP/PE-Folien-Recyclinglinie',
+ }}
+>
+ <Fragment slot="content">
+   <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Innovative Kunststoff-Recycling-Lösungen</h3>
+   Nutzen Sie modernste Technologie und jahrzehntelange Expertise zur Verbesserung Ihrer Kunststoff-Recyclingprozesse.
+ </Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+ <Fragment slot="bg">
+   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+ </Fragment>
+</Content>
 
-  <!-- Content Widget **************** -->
+<!-- Content Widget **************** -->
 
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Anpassbare Waschlinien',
-        description: `Wir bieten maßgeschneiderte Waschlinien für verschiedene Kunststoffe, einschließlich PE-Folien und PET-Flaschen, die auf Ihre spezifischen Kapazitäts- und Qualitätsanforderungen zugeschnitten sind.`,
-      },
-      {
-        title: 'Effiziente Zerkleinerungstechnologien',
-        description:
-          'Unsere Granulatoren und Schredder mit hochqualitativen D2-Stahlklingen gewährleisten eine gleichmäßige und effiziente Zerkleinerung verschiedener Kunststoffmaterialien.',
-      },
-      {
-        title: 'Fortschrittliche Trocknungs- und Trenntechnologien',
-        description:
-          "Von Entwässerungsmaschinen bis hin zu Thermotrocknern sorgt unsere Ausrüstung für eine gründliche Reinigung und Trocknung der recycelten Kunststoffe und bereitet sie für hochwertige Endprodukte vor.",
-      },
-      {
-        title: 'Hochwertige Pelletierungsausrüstung',
-        description:
-          'Unsere Ein- und Doppelschneckenextruder mit Heat Wave Stabilizing Technology™ produzieren konsistente, hochwertige Kunststoffpellets für verschiedene Anwendungen.',
-      },
-    ]}
-    image={{
-      src: '~/assets/images/plastic-shredder-crusher.webp',
-      alt: 'Kunststoff-Schredder und Granulator',
-    }}
-  >
-    <Fragment slot="content">Optimieren Sie Ihren Recyclingprozess</Fragment>
+<Content
+ isAfterContent
+ items={[
+   {
+     title: 'Anpassbare Waschanlagen',
+     description: 'Wir bieten maßgeschneiderte Waschanlagen für verschiedene Kunststoffe an, einschließlich PE-Folien und PET-Flaschen, die auf Ihre spezifischen Kapazitäts- und Qualitätsanforderungen ausgelegt sind.',
+   },
+   {
+     title: 'Effiziente Zerkleinerungsanlagen',
+     description: 'Unsere Granulatoren und Schredder mit hochwertigen D2-Stahlmessern gewährleisten eine konstante und effiziente Größenreduzierung für verschiedene Kunststoffmaterialien.',
+   },
+   {
+     title: 'Fortschrittliche Trocknungs- und Trenntechnologien',
+     description: 'Von Entwässerungsmaschinen bis zu Thermaltrocknern - unsere Anlagen gewährleisten eine gründliche Reinigung und Trocknung recycelter Kunststoffe für hochwertige Endprodukte.',
+   },
+   {
+     title: 'Hochwertige Pelletieranlagen',
+     description: 'Unsere Ein- und Doppelschneckenextruder mit Heat Wave Stabilizing Technology™ produzieren konstant hochwertige Kunststoffpellets für verschiedene Anwendungen.',
+   },
+ ]}
+ image={{
+   src: '~/assets/images/plastic-shredder-crusher.webp',
+   alt: 'Kunststoff-Schredder und Granulator',
+ }}
+>
+ <Fragment slot="content">Optimieren Sie Ihren Recyclingprozess</Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+ <Fragment slot="bg">
+   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+ </Fragment>
+</Content>
 
-  <!-- Steps Widget ****************** -->
+<!-- Content Widget **************** -->
 
-  <Steps
-    title="Bringen Sie Ihr Recyclingwerk mit Rumtoo in Betrieb."
-    items={[
-      {
-        title: 'Schritt 1: <span class="font-medium">Beratung</span>',
-        description:
-          "Kontaktieren Sie unsere Experten, um Ihre spezifischen Recyclinganforderungen zu besprechen.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Schritt 2: <span class="font-medium">Individuelle Planung</span>',
-        description:
-          "Unsere Ingenieure erstellen eine maßgeschneiderte Lösung, die auf Ihre Anlage und Ihre Produktionsziele abgestimmt ist.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Schritt 3: <span class="font-medium">Umsetzung</span>',
-        description:
-          'Wir übernehmen die Installation, Einrichtung und Schulung, um Ihre Anlage schnell betriebsbereit zu machen.',
-        icon: 'tabler:paint',
-      },
+<Content
+ isReversed
+ isAfterContent
+ items={[
+   {
+     title: 'Verbesserte Betriebseffizienz',
+     description:
+       'Unsere hochmodernen Maschinen gewährleisten einen reibungslosen Betrieb Ihrer Recyclinglinie, reduzieren Ausfallzeiten und erhöhen den Durchsatz für maximale Rentabilität.',
+   },
+   {
+     title: 'Kostengünstig und Energieeffizient',
+     description:
+       'Sichern Sie durch regelmäßige Aktualisierungen und Verbesserungen die Anpassung Ihrer Anlage an die neuesten Trends und Technologien.',
+   },
+   {
+     title: 'Nahtlose Integration', 
+     description:
+       'Unsere Maschinen integrieren sich mühelos in Ihre bestehenden Systeme und gewährleisten einen reibungslosen und effizienten Betrieb in Ihrer gesamten Anlage.',
+   },
+   {
+     title: 'Kontinuierliche Verbesserung und Unterstützung',
+     description: 'Bleiben Sie der Konkurrenz einen Schritt voraus mit Maschinen, die sich durch regelmäßige Updates und Verbesserungen an neue Recycling-Herausforderungen anpassen, unterstützt von unserem engagierten Kundenservice-Team.',
+   },
+ ]}
+ image={{
+   src: '~/assets/images/BOPP-Film-Recycling-Granulating-Line.webp',
+   alt: 'BOPP-Folien-Recycling-Granulieranlage',
+ }}
+>
+ <Fragment slot="content">Maximieren Sie Ihren Output und Ihre Rentabilität.</Fragment>
+
+ <Fragment slot="bg">
+   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+ </Fragment>
+</Content>
+
+<!-- Steps Widget ****************** -->
+
+<Steps
+  title="Bringen Sie Ihre Recyclinganlage mit Rumtoo zum Laufen"
+  items={[
+    {
+      title: 'Schritt 1: <span class="font-medium">Beratung</span>',
+      description:
+        "Sprechen Sie mit unseren Experten über Ihre spezifischen Recyclinganforderungen.",
+      icon: 'tabler:package',
+    },
+    {
+      title: 'Schritt 2: <span class="font-medium">Individuelles Design</span>',
+      description:
+        "Unsere Ingenieure entwickeln eine maßgeschneiderte Lösung für Ihre Anlage und Produktionsziele.",
+      icon: 'tabler:letter-case',
+    },
+    {
+      title: 'Schritt 3: <span class="font-medium">Umsetzung</span>',
+      description:
+        'Wir übernehmen Installation, Einrichtung und Schulung, damit Ihre Anlage schnell betriebsbereit ist.',
+      icon: 'tabler:paint',
+    },
       {
         title: 'Fertig!',
         icon: 'tabler:check',
@@ -218,48 +256,117 @@ const metadata = {
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Schrittbild',
+      alt: ' image',
     }}
   />
+  
+  <Features2
+  title="Recyclingmaterialien"
+  subtitle="Bietet häufig verwendete Komponenten für die Verarbeitung verschiedener Kunststoffe"
+  tagline="Materialien"
+  items={[
+    {
+      title: 'PET-Flaschen-Pellets',
+      description: "PET-Flaschen-Pellets entstehen nach dem Recycling- und Pelletierprozess gebrauchter PET-Flaschen. Diese hellblauen transparenten Flakes und dunkelblauen einheitlichen Pellets können zur Herstellung neuer Flaschen, Textilien oder anderer Produkte verwendet werden und geben altem PET ein neues Leben.",
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_PET%20Bottle%20Pellets.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'Kunstrasen-Pellets',
+      description: "Kunstrasen-Pellets werden aus recycelten synthetischen Grasfasern hergestellt, die häufig auf Sportplätzen oder in der Landschaftsgestaltung zu finden sind. Die grünen Fasern werden geschreddert, verarbeitet und in einheitliche grüne Pellets umgewandelt, die dann in verschiedenen Kunststoffprodukten verwendet werden und die Nachhaltigkeit fördern.",
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_Artificial%20turf%20pellets.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'Hartkunststoff',
+      description: 'Hartkunststoffabfälle, die sich durch ihre langlebige und nicht flexible Beschaffenheit auszeichnen, sind ideal für die Hochleistungszerkleinerung. Von kaputtem Spielzeug bis hin zu Haushaltsbehältern ist dieses Material nach der Verarbeitung leicht recycelbar und wird in verschiedenen Industrien breit eingesetzt.',
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_Rigid%20Plastic.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'PE-Folienabfälle',
+      description: "PE-Folien, die häufig in Verpackungen und landwirtschaftlichen Anwendungen zu finden sind, sind ein Grundpfeiler der Recyclingindustrie. Nach der Reinigung und Zerkleinerung werden diese Folien als neue Kunststoffprodukte wieder in den Markt eingeführt und reduzieren damit Deponieabfälle.",
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_Waste%20PE%20Film.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'Verdichtetes Material',
+      description: 'Verdichtete Materialien, die aus komprimierten Kunststoffabfällen entstehen, sind perfekt für eine effiziente Lagerung und Transport. Ihre kompakte Beschaffenheit macht sie ideal für Industrien, die Platz minimieren und gleichzeitig den Materialnutzen maximieren wollen.',
+      image: 'https://recycling.imgix.net/Material/Densified%20material.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'PVC-Rohre',
+      description: 'PVC-Rohre, die häufig im Bau und in der Sanitärtechnik verwendet werden, können zu neuen Rohren recycelt oder zu Pellets für verschiedene Kunststoffprodukte verarbeitet werden. Das Recycling von PVC hilft, die Umweltbelastung zu reduzieren und fördert die Wiederverwendung wertvoller Materialien.',
+      image: 'https://recycling.imgix.net/Material/PVC%20Pipe.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'Gummi',
+      description: 'Gummiabfälle, von alten Reifen bis hin zu entsorgten Industriematerialien, finden durch Zerkleinerung und Wiederaufbereitung ein neues Leben. Recycelter Gummi wird häufig für Spielplatzbeläge, Sportbahnen und andere langlebige, widerstandsfähige Produkte verwendet.',
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_rubber%20belt.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'Vliesstoffe',
+      description: 'Vliesstoffabfälle, die häufig in Einwegartikeln wie OP-Masken und Reinigungstüchern zu finden sind, tragen erheblich zur Kunststoffverschmutzung bei. Durch Recycling werden diese Materialien in neue Produkte umgewandelt und helfen dabei, Umweltabfälle zu reduzieren.',
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_Woven%20Bags.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+    {
+      title: 'PET-Flaschen-Etikettenentfernung',
+      description: "Die Entfernung von Etiketten von PET-Flaschen ist ein wesentlicher Schritt im Recyclingprozess. Saubere, etikettenfreie PET-Flaschen werden zu Flakes oder Pellets verarbeitet, die dann in der Herstellung neuer Kunststoffprodukte wie Fasern, Flaschen und Verpackungsmaterialien wiederverwendet werden können.",
+      image: 'https://recycling.imgix.net/Material/Recycle%20Materials_PET%20Bottle%20label%20removal.webp?fit=crop&auto=format,compress&fm=webp',
+    },
+  ]}
+ >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+  title="Entdecken Sie weitere Inhalte in unserem Blog"
+  information={`Unser Blog widmet sich ausführlichen Artikeln und Einblicken in die Welt der Kunststoff-Recyclingmaschinen. Von innovativen Technologien bis hin zu detaillierten Anleitungen bietet jeder Beitrag wertvolle Informationen, die Ihnen helfen, Ihre Recyclingprozesse zu verbessern und über die neuesten Branchentrends informiert zu bleiben. Erkunden Sie Expertentipps, Fallstudien und Maschinenmerkmale, die entwickelt wurden, um die Effizienz und Nachhaltigkeit in Ihren Betriebsabläufen zu steigern.`}
+ />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
     title="Häufig gestellte Fragen"
-    subtitle="Erfahren Sie mehr über die leistungsstarken Funktionen, die Rumtoo Recycling bietet, und wie es Ihre Kunststoffrecyclingprozesse verbessern kann."
+    subtitle="Tauchen Sie ein in die folgenden Fragen, um Einblicke in die leistungsstarken Funktionen von Rumtoo Recycling zu erhalten und zu erfahren, wie sie Ihren Kunststoffrecyclingbetrieb verbessern können."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
         title: 'Warum Rumtoo Recycling wählen?',
-        description:
-          "Rumtoo Recycling verfügt über mehr als zwei Jahrzehnte Erfahrung in der Herstellung von Kunststoff-Recyclingmaschinen. Wir sind bestrebt, hochwertige, langlebige Geräte herzustellen und einen hervorragenden Kundenservice sowie Support nach dem Verkauf zu bieten. Unsere Maschinen werden gründlich getestet, um Stabilität und Zuverlässigkeit im Langzeiteinsatz zu gewährleisten.",
+        description: 'Rumtoo Recycling verfügt über mehr als zwei Jahrzehnte Erfahrung in der Herstellung von Kunststoff-Recyclingmaschinen. Wir sind der Produktion hochwertiger, langlebiger Anlagen und exzellentem Kundenservice sowie After-Sales-Support verpflichtet. Unsere Maschinen werden rigoros getestet, um Stabilität und Zuverlässigkeit im Langzeitbetrieb zu gewährleisten.',
       },
       {
-        title: 'Wie installiert man Rumtoo-Recyclingmaschinen?',
-        description:
-          'Wir bieten Installationsservices an, einschließlich der Bereitstellung von Rumtoo-zertifizierten Elektro- und Maschinenbauingenieuren, um bei der Installation und Inbetriebnahme der Geräte zu helfen. Die Installation dauert in der Regel 7 bis 14 Tage, abhängig von der Größe des Projekts.',
+        title: 'Wie werden Rumtoos Recyclingmaschinen installiert?',
+        description: 'Wir bieten Installationsservices an, einschließlich der Bereitstellung von Rumtoo-zertifizierten Elektro- und Maschinenbauingenieuren zur Unterstützung bei Installation und Inbetriebnahme. Der Installationsprozess dauert typischerweise 7 bis 14 Tage, abhängig von der Projektgröße.',
       },
       {
-        title: 'Welche Schritte sind erforderlich, um Rumtoo-Recyclinganlagen zu kaufen?',
-        description:
-          "Kontaktieren Sie zuerst unser Vertriebsteam, um Ihre Geräteanforderungen im Detail zu besprechen. Sobald die Spezifikationen bestätigt sind, stellen wir ein detailliertes Angebot bereit und unterzeichnen einen Vertrag. Die übliche Produktionszeit beträgt 60 Tage. Alle Geräte werden vor dem Versand getestet, und wir empfehlen Kunden, unsere Fabrik zur Inspektion zu besuchen.",
+        title: 'Wie kaufe ich Rumtoo Recyclingausrüstung?',
+        description: 'Kontaktieren Sie zunächst unser Verkaufsteam, um Ihren Ausrüstungsbedarf im Detail zu besprechen. Nach Bestätigung der Spezifikationen erstellen wir ein detailliertes Angebot und unterzeichnen einen Vertrag. Die übliche Produktionszeit beträgt 60 Tage. Alle Geräte werden vor dem Versand getestet, und wir empfehlen Kunden, unser Werk zur Inspektion zu besuchen.',
       },
       {
-        title: "Sind Rumtoo-Maschinen zertifiziert?",
-        description:
-          "Ja, unsere Maschinen können die CE- oder ISO9001:2000-Zertifizierung bestehen, die Qualität und Sicherheit gewährleisten.",
+        title: 'Sind Rumtoos Maschinen zertifiziert?',
+        description: 'Ja, unsere Maschinen können CE- oder ISO9001:2000-Zertifizierung vorweisen, was Qualität und Sicherheit garantiert.',
       },
       {
-        title: 'Wie lange ist die Garantiezeit für Rumtoo-Recyclingmaschinen?',
-        description:
-          "Wir bieten eine einjährige Qualitätsgarantie auf alle unsere Geräte. Wenn innerhalb der Garantiezeit Herstellungsfehler festgestellt werden, stellen wir Ersatzteile kostenlos zur Verfügung.",
+        title: 'Wie lange ist die Garantiezeit für Rumtoo Recyclingmaschinen?',
+        description: 'Wir bieten eine einjährige Qualitätsgarantie auf alle unsere Geräte. Bei Herstellungsfehlern innerhalb der Garantiezeit stellen wir kostenlos Ersatzteile zur Verfügung.',
       },
       {
-        title: 'Wie kann ich Rumtoo kontaktieren, wenn ich weitere Fragen habe?',
-        description:
-          "Sie können sich jederzeit per E-Mail oder Telefon an unser Kundenserviceteam wenden. Wir stehen Ihnen gerne zur Verfügung, um alle Fragen zu beantworten und die notwendige Unterstützung zu bieten.",
-      },
+        title: 'Wie kann ich Rumtoo bei weiteren Fragen kontaktieren?',
+        description: 'Sie können unser Kundenservice-Team jederzeit per E-Mail oder Telefon kontaktieren. Wir sind engagiert, alle Ihre Fragen zu beantworten und die benötigte Unterstützung zu leisten.',
+      }
+    ]}
+  />
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    stats={[
+      { title: 'View', amount: '132K' },
+      { title: 'Stars', amount: '82.8K' },
+      { title: 'Forks', amount: '10.3K' },
+      { title: 'Users', amount: '1.4K' },
     ]}
   />
 
@@ -276,12 +383,12 @@ const metadata = {
       },
     ]}
   >
-    <Fragment slot="title">
-      Kontaktieren Sie uns&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Jetzt</span>
-    </Fragment>
+  <Fragment slot="title">
+    Jetzt&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Anfragen</span>
+  </Fragment>
 
     <Fragment slot="subtitle">
-      Wenn Sie Fragen zu unseren Bestellverfahren haben, <br class="hidden md:inline" />zögern Sie nicht, uns jederzeit zu kontaktieren.
+      Wenn Sie Fragen zu unseren Bestellvorgängen haben, <br class="hidden md:inline" />können Sie uns jederzeit kontaktieren.
     </Fragment>
   </CallToAction>
 </Layout>
