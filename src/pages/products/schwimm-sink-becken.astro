@@ -7,120 +7,119 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features from '~/components/widgets/Features.astro';
 
 const metadata = {
-  title: 'Schwimm-Sink-Becken | Rumtoo',
+ title: 'Schwimm-Sink-Becken | Rumtoo',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <Hero
-    tagline="Industrial Recycling Solutions"
-    title="Sink-Float Separation Tank"
-    subtitle="Efficient segregation of materials in PET recycling process"
-    actions={[
-      { variant: 'primary', text: 'Get a Quote', href: '#inquire', icon: 'tabler:file-invoice' },
-      { text: 'Learn More', href: '#features' },
-    ]}
-    image={{
-      src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
-      alt: 'Sink-Float Separation Tank',
-      
-    }}
-  />
+ <!-- Hero Widget ******************* -->
+ <Hero
+   tagline="Industrielle Recyclinglösungen"
+   title="Schwimm-Sink-Trenntank"
+   subtitle="Effiziente Materialtrennnung im PET-Recyclingprozess"
+   actions={[
+     { variant: 'primary', text: 'Angebot anfordern', href: '#inquire', icon: 'tabler:file-invoice' },
+     { text: 'Mehr erfahren', href: '#features' },
+   ]}
+   image={{
+     src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
+     alt: 'Schwimm-Sink-Trenntank',
+   }}
+ />
 
-  <!-- Features Widget *************** -->
-  <Features
-    id="features"
-    tagline="Key Features"
-    title="Why Choose Our Sink-Float Separation Tank?"
-    subtitle="Discover the advanced capabilities that set our product apart"
-    items={[
-      {
-        title: 'Efficient Separation',
-        description: 'Utilizes water density to separate PET from PP/PE materials',
-        icon: 'tabler:separator-horizontal',
-      },
-      {
-        title: 'Durable Construction',
-        description: 'Interior and rotating drums made from corrosion-resistant Type 304 Stainless Steel',
-        icon: 'tabler:building-factory-2',
-      },
-      {
-        title: 'Customizable Length',
-        description: 'Available in 4-meter standard or 6-meter extended versions',
-        icon: 'tabler:ruler-2',
-      },
-      {
-        title: 'Powerful Motors',
-        description: 'Equipped with high-performance screw conveyor and rotating drum motors',
-        icon: 'tabler:engine',
-      },
-    ]}
-  />
+ <!-- Features Widget *************** -->
+ <Features
+   id="features"
+   tagline="Hauptmerkmale"
+   title="Warum unser Schwimm-Sink-Trenntank?"
+   subtitle="Entdecken Sie die fortschrittlichen Funktionen, die unser Produkt auszeichnen"
+   items={[
+     {
+       title: 'Effiziente Trennung',
+       description: 'Nutzt die Wasserdichte zur Trennung von PET und PP/PE-Materialien',
+       icon: 'tabler:separator-horizontal',
+     },
+     {
+       title: 'Langlebige Konstruktion',
+       description: 'Innenraum und Rotationstrommeln aus korrosionsbeständigem Edelstahl Typ 304',
+       icon: 'tabler:building-factory-2',
+     },
+     {
+       title: 'Anpassbare Länge',
+       description: 'Erhältlich in 4-Meter-Standard oder 6-Meter-Verlängerungsversion',
+       icon: 'tabler:ruler-2',
+     },
+     {
+       title: 'Leistungsstarke Motoren',
+       description: 'Ausgestattet mit Hochleistungs-Schneckenförderer und Rotationstrommel-Motoren',
+       icon: 'tabler:engine',
+     },
+   ]}
+ />
 
-  <!-- Content Widget **************** -->
-  <Content
-    id="working-principle"
-    title="Working Principle"
-    subtitle="Understanding the science behind our Sink-Float Separation Tank"
-    items={[
-      {
-        title: 'Density-Based Separation',
-        description: `Our tank uses water's density (1 g/cm³) to separate materials. PET sinks while PP/PE floats.`,
-      },
-      {
-        title: 'Rotating Drums',
-        description: 'Specially engineered rotating drums move floating materials (contaminants) to a storage silo.',
-      },
-      {
-        title: 'Screw Conveyors',
-        description: 'Bottom-mounted screw conveyors gather and transport sunken PET flakes to the next stage.',
-      },
-    ]}
-    image={{
-      src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank-02.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
-      alt: 'Sink-Float Separation Tank working principle illustration',
-    }}
-  />
+ <!-- Content Widget **************** -->
+ <Content
+   id="working-principle"
+   title="Funktionsprinzip"
+   subtitle="Verstehen Sie die Technologie hinter unserem Schwimm-Sink-Trenntank"
+   items={[
+     {
+       title: 'Dichtebasierte Trennung',
+       description: `Unser Tank nutzt die Wasserdichte (1 g/cm³) zur Materialtrennung. PET sinkt, während PP/PE schwimmt.`,
+     },
+     {
+       title: 'Rotationstrommeln',
+       description: 'Speziell entwickelte Rotationstrommeln transportieren schwimmende Materialien (Verunreinigungen) in ein Lagersilo.',
+     },
+     {
+       title: 'Schneckenförderer',
+       description: 'Am Boden montierte Schneckenförderer sammeln und transportieren gesunkene PET-Flakes zur nächsten Stufe.',
+     },
+   ]}
+   image={{
+     src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank-02.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
+     alt: 'Funktionsprinzip des Schwimm-Sink-Trenntanks',
+   }}
+ />
 
-  <!-- Content Widget **************** -->
-  <Content
-    id="specifications"
-    isReversed
-    title="Technical Specifications"
-    subtitle="Detailed information about our Sink-Float Separation Tank"
-    items={[
-      {
-        title: 'Dimensions',
-        description: 'Interior Width: 1500mm – 2000mm, Total Length: 4 – 6 meters',
-      },
-      {
-        title: 'Materials',
-        description: 'Interior: Type 304 Stainless Steel, Exterior Frame: Carbon Steel',
-      },
-      {
-        title: 'Motors',
-        description: 'Screw Conveyor: 5.5KW + 3.7KW, Rotating Drum: 0.37KW + 2.2KW',
-      },
-    ]}
-    image={{
-      src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank-03.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
-      alt: 'Sink-Float Separation Tank specifications diagram',
-    }}
-  />
+ <!-- Content Widget **************** -->
+ <Content
+   id="specifications"
+   isReversed
+   title="Technische Spezifikationen"
+   subtitle="Detaillierte Informationen über unseren Schwimm-Sink-Trenntank"
+   items={[
+     {
+       title: 'Abmessungen',
+       description: 'Innenbreite: 1500mm – 2000mm, Gesamtlänge: 4 – 6 Meter',
+     },
+     {
+       title: 'Materialien',
+       description: 'Innenraum: Edelstahl Typ 304, Außenrahmen: Kohlenstoffstahl',
+     },
+     {
+       title: 'Motoren',
+       description: 'Schneckenförderer: 5,5KW + 3,7KW, Rotationstrommel: 0,37KW + 2,2KW',
+     },
+   ]}
+   image={{
+     src: 'https://recycling.imgix.net/recycling%20products/Sink%20Float%20Separation%20Tank-03.jpg?auto=format,compress&fit=crop&w=2000&q=80&fm=webp',
+     alt: 'Spezifikationsdiagramm des Schwimm-Sink-Trenntanks',
+   }}
+ />
 
-  <!-- CallToAction Widget *********** -->
-  <CallToAction
-    id="inquire"
-    title="Ready to Optimize Your Recycling Process?"
-    subtitle="Get in touch for the latest prices and lead times on our Sink-Float Separation Tank."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Request a Quote',
-        href: '/contact',
-        icon: 'tabler:file-invoice',
-      },
-    ]}
-  />
+ <!-- CallToAction Widget *********** -->
+ <CallToAction
+   id="inquire"
+   title="Bereit, Ihren Recyclingprozess zu optimieren?"
+   subtitle="Kontaktieren Sie uns für aktuelle Preise und Lieferzeiten unseres Schwimm-Sink-Trenntanks."
+   actions={[
+     {
+       variant: 'primary',
+       text: 'Angebot anfordern',
+       href: '/contact',
+       icon: 'tabler:file-invoice',
+     },
+   ]}
+ />
 </Layout>
