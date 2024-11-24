@@ -5,19 +5,19 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'Kontakt',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="Kontakt" title="Lassen Sie uns in Verbindung treten!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Senden Sie uns noch heute eine Nachricht!"
+    subtitle="Für schnellere Antworten besuchen Sie unseren FAQ-Bereich. Vielleicht finden Sie dort bereits die Lösung, die Sie suchen! Wenn nicht, hilft Ihnen unser Support-Team gerne weiter."
     inputs={[
       {
         type: 'text',
@@ -27,51 +27,51 @@ const metadata = {
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'E-Mail',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Nachricht',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Mit dem Absenden dieses Kontaktformulars erkennen Sie an und stimmen zu, dass Ihre persönlichen Daten gesammelt werden.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Unser Support-Team antwortet in der Regel innerhalb von 24 Geschäftsstunden."
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="We are here to help!"
+    title="Wir sind hier, um Ihnen zu helfen!"
     items={[
       {
-        title: 'General Inquiries',
-        description: `Contact us for information about our recycling machinery, company details, or general questions about plastic recycling processes and technologies.`,
+        title: 'Allgemeine Anfragen',
+        description: `Kontaktieren Sie uns für Informationen über unsere Recyclingmaschinen, Firmendetails oder allgemeine Fragen zu Kunststoffrecyclingprozessen und -technologien.`,
       },
       {
-        title: 'Sales Department',
+        title: 'Verkaufsabteilung',
         description:
-          'Reach out for quotes, customization options, capacity specifications, or to discuss your specific plastic recycling needs. We are here to find the right solution for you.',
+          'Wenden Sie sich an uns für Angebote, Anpassungsoptionen, Kapazitätsspezifikationen oder um Ihre spezifischen Anforderungen an Kunststoffrecycling zu besprechen. Wir finden die richtige Lösung für Sie.',
       },
       {
-        title: 'Technical support',
+        title: 'Technischer Support',
         description:
-          'Get assistance with machine installation, operational issues, maintenance queries, or any technical challenges related to our recycling equipment.',
+          'Holen Sie sich Unterstützung bei der Maschineninstallation, Betriebsproblemen, Wartungsanfragen oder technischen Herausforderungen im Zusammenhang mit unseren Recyclinganlagen.',
       },
       {
-        title: 'Phone',
+        title: 'Telefon',
         description: '<a href="https://wa.me/13322501915" target="_blank" rel="noopener noreferrer" class="hover:underline">+1 332-250-1915</a>',
         icon: 'tabler:headset',
       },
       {
-        title: 'Email',
+        title: 'E-Mail',
         description: '<a href="mailto:sales@rumtoo.com" class="hover:underline">sales@rumtoo.com</a>',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: 'Jiangsu,China',
+        title: 'Standort',
+        description: 'Jiangsu, China',
         icon: 'tabler:map-pin',
       },
     ]}
