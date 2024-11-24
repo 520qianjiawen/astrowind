@@ -7,86 +7,86 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: "RUMTOO Recycling Machinery Pricing",
+  title: "RUMTOO Recyclingmaschinen Preise",
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget -->
   <HeroText
-    tagline="Pricing"
-    title="Transparent Pricing for Quality Recycling Machinery"
-    subtitle="RUMTOO offers high-quality PET bottle and PE film washing lines at competitive, upfront prices."
+    tagline="Preise"
+    title="Transparente Preise für hochwertige Recyclingmaschinen"
+    subtitle="RUMTOO bietet hochwertige PET-Flaschen- und PE-Folien-Waschlinien zu wettbewerbsfähigen und klaren Preisen."
   />
 
   <!-- Pricing Widget -->
   <Prices
-    title="Our Pricing"
-    subtitle="Honest pricing for top-notch recycling machinery"
+    title="Unsere Preise"
+    subtitle="Ehrliche Preise für erstklassige Recyclingmaschinen"
     prices={[
       {
-        title: "PET Bottle Washing Line",
-        subtitle: "For small to medium operations",
+        title: "PET-Flaschen-Waschlinie",
+        subtitle: "Für kleine bis mittlere Anlagen",
         price: 250,
         period: "K - 320K",
         items: [
-          { description: "Capacity: 1,000-1,500 KG/H" },
-          { description: "Includes washing, drying, and pelletizing" },
-          { description: "High-quality machinery components" },
-          { description: "Detailed quotation available" },
+          { description: "Kapazität: 1.000-1.500 KG/H" },
+          { description: "Beinhaltet Waschen, Trocknen und Pelletierung" },
+          { description: "Hochwertige Maschinenkomponenten" },
+          { description: "Detailliertes Angebot auf Anfrage" },
         ],
         callToAction: {
           target: "_blank",
-          text: "Get detailed quote",
+          text: "Detailliertes Angebot einholen",
           href: "#",
         },
       },
       {
-        title: "PE Film Washing Line",
-        subtitle: "Optimal for large-scale operations",
+        title: "PE-Folien-Waschlinie",
+        subtitle: "Optimal für großflächige Anlagen",
         price: 600,
         period: "K - 680K",
         items: [
-          { description: "Capacity: 1,000 KG/H" },
-          { description: "Includes water filtration system" },
-          { description: "High-quality PP or PE pellets output" },
-          { description: "Customizable based on requirements" },
+          { description: "Kapazität: 1.000 KG/H" },
+          { description: "Inklusive Wasserfiltersystem" },
+          { description: "Hochwertige PP- oder PE-Pellets als Ausgang" },
+          { description: "Anpassbar an Ihre Anforderungen" },
         ],
         callToAction: {
           target: "_blank",
-          text: "Get detailed quote",
+          text: "Detailliertes Angebot einholen",
           href: "#",
         },
         hasRibbon: true,
-        ribbonTitle: "popular",
+        ribbonTitle: "Beliebt",
       },
     ]}
   />
 
   <!-- Features3 Widget -->
   <Features3
-    title="Our Commitment to Quality"
-    subtitle="Discover the RUMTOO advantage in recycling machinery"
+    title="Unser Engagement für Qualität"
+    subtitle="Entdecken Sie den RUMTOO-Vorteil bei Recyclingmaschinen"
     columns={2}
     items={[
       {
-        title: "Top-Notch Materials",
-        description: "We never compromise on material quality to reduce prices, ensuring durable and efficient machinery.",
+        title: "Erstklassige Materialien",
+        description: "Wir verzichten niemals auf Materialqualität, um Preise zu senken, und garantieren langlebige und effiziente Maschinen.",
         icon: "tabler:certificate",
       },
       {
-        title: "Transparent Pricing",
-        description: "Upfront, honest pricing without hidden costs or negotiation games.",
+        title: "Transparente Preise",
+        description: "Klare und ehrliche Preise ohne versteckte Kosten oder Verhandlungsspielchen.",
         icon: "tabler:currency-dollar",
       },
       {
-        title: "Customizable Solutions",
-        description: "Tailored washing plants to meet your specific recycling needs and capacity requirements.",
+        title: "Anpassbare Lösungen",
+        description: "Individuelle Waschsysteme, die auf Ihre spezifischen Recyclingbedürfnisse und Kapazitätsanforderungen abgestimmt sind.",
         icon: "tabler:adjustments",
       },
       {
-        title: "Factory Visits Welcome",
-        description: "We invite you to visit our factory, just 90 minutes from Shanghai Pudong Airport (PVG).",
+        title: "Werksbesuche willkommen",
+        description: "Wir laden Sie ein, unser Werk zu besuchen, nur 90 Minuten vom Flughafen Shanghai Pudong (PVG) entfernt.",
         icon: "tabler:building-factory",
       },
     ]}
@@ -94,46 +94,46 @@ const metadata = {
 
   <!-- FAQs Widget -->
   <FAQs
-    title="Pricing FAQs"
-    subtitle="Get answers to common questions about our pricing and machinery."
+    title="Preise - Häufig gestellte Fragen"
+    subtitle="Erhalten Sie Antworten auf häufige Fragen zu unseren Preisen und Maschinen."
     columns={1}
     items={[
       {
-        title: "Why are your prices higher than some other manufacturers?",
+        title: "Warum sind Ihre Preise höher als bei einigen anderen Herstellern?",
         description:
-          "Our prices reflect our commitment to using only high-grade materials and maintaining superior workmanship. We believe in providing machinery that is both efficient and durable for long-term success.",
+          "Unsere Preise spiegeln unser Engagement wider, nur hochwertige Materialien zu verwenden und eine erstklassige Verarbeitung zu gewährleisten. Wir legen Wert auf effiziente und langlebige Maschinen für langfristigen Erfolg.",
       },
       {
-        title: "Do your prices include installation and training?",
+        title: "Sind in Ihren Preisen Installation und Schulung enthalten?",
         description:
-          "Our quoted prices typically cover the machinery itself. Installation, training, and shipping are usually quoted separately based on your specific requirements and location.",
+          "Unsere angegebenen Preise beziehen sich in der Regel auf die Maschinen selbst. Installation, Schulung und Versand werden normalerweise separat basierend auf Ihren spezifischen Anforderungen und Ihrem Standort angeboten.",
       },
       {
-        title: "Can I get a customized quote for my specific needs?",
+        title: "Kann ich ein individuelles Angebot für meine speziellen Bedürfnisse erhalten?",
         description:
-          "Absolutely! Contact our sales team with your specific requirements, and we'll provide a detailed, customized quote for your recycling project.",
+          "Natürlich! Kontaktieren Sie unser Verkaufsteam mit Ihren spezifischen Anforderungen, und wir erstellen ein detailliertes, individuelles Angebot für Ihr Recyclingprojekt.",
       },
       {
-        title: "Do you offer financing options?",
+        title: "Bieten Sie Finanzierungsmöglichkeiten an?",
         description:
-          "While we don't provide direct financing, we can recommend trusted partners who offer financing solutions for industrial machinery purchases.",
+          "Während wir keine direkte Finanzierung anbieten, können wir vertrauenswürdige Partner empfehlen, die Finanzierungslösungen für den Kauf von Industriemaschinen anbieten.",
       },
     ]}
   />
 
   <!-- CallToAction Widget -->
   <CallToAction
-    title="Ready to upgrade your recycling operations?"
-    subtitle="Contact us today for a detailed quote and to discuss how RUMTOO can meet your specific recycling machinery needs."
+    title="Bereit, Ihre Recyclingprozesse zu verbessern?"
+    subtitle="Kontaktieren Sie uns noch heute für ein detailliertes Angebot und besprechen Sie, wie RUMTOO Ihre spezifischen Anforderungen an Recyclingmaschinen erfüllen kann."
     actions={[
       {
         variant: "primary",
-        text: "Get a Quote",
+        text: "Ein Angebot einholen",
         href: "/contact",
       },
       {
         variant: "secondary",
-        text: "Learn More",
+        text: "Mehr erfahren",
         href: "/about",
       },
     ]}

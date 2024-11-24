@@ -7,59 +7,59 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'About RUMTOO',
+  title: 'Über RUMTOO',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget -->
   <Hero
-    tagline="About RUMTOO"
+    tagline="Über RUMTOO"
     image={{
       src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'RUMTOO Recycling Machinery Office',
+      alt: 'RUMTOO Recycling-Maschinen Büro',
     }}
   >
     <Fragment slot="title">
-      Innovative Solutions for <br />
-      <span class="text-accent dark:text-white highlight">Plastic Recycling</span>
+      Innovative Lösungen für <br />
+      <span class="text-accent dark:text-white highlight">Kunststoffrecycling</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      RUMTOO Environmental Science Research & Development Institute, known as RUMTOO Recycling Machinery, is a leading manufacturer of plastic recycling machinery. We specialize in PET bottle and PE film washing lines, providing cutting-edge solutions for the global recycling industry.
+      Das RUMTOO Institut für Umweltwissenschaftliche Forschung und Entwicklung, bekannt als RUMTOO Recycling Machinery, ist ein führender Hersteller von Kunststoffrecyclingmaschinen. Wir spezialisieren uns auf PET-Flaschen- und PE-Folien-Waschlinien und bieten modernste Lösungen für die globale Recyclingindustrie.
     </Fragment>
   </Hero>
 
   <!-- Stats Widget -->
   <Stats
-    title="Our Impact"
+    title="Unser Einfluss"
     stats={[
-      { title: 'Years of Experience', amount: '20+' },
-      { title: 'Employees', amount: '300+' },
-      { title: 'Countries Exported', amount: '50+' },
-      { title: 'Square Meters Facility', amount: '50,000' },
+      { title: 'Jahre Erfahrung', amount: '20+' },
+      { title: 'Mitarbeiter', amount: '300+' },
+      { title: 'Exportierte Länder', amount: '50+' },
+      { title: 'Quadratmeter Anlage', amount: '50.000' },
     ]}
   />
 
   <!-- Features3 Widget -->
   <Features3
-    title="Our Expertise"
-    subtitle="At RUMTOO, we offer comprehensive recycling solutions tailored to your needs. Our product range includes:"
+    title="Unsere Expertise"
+    subtitle="Bei RUMTOO bieten wir umfassende Recyclinglösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Unser Produktangebot umfasst:"
     columns={3}
     items={[
       {
-        title: 'PET Bottle Recycling',
-        description: 'Complete washing lines for efficient PET bottle recycling, from size reduction to pelletizing.',
+        title: 'PET-Flaschen-Recycling',
+        description: 'Komplette Waschlinien für effizientes PET-Flaschen-Recycling, von der Zerkleinerung bis zur Pelletierung.',
         icon: 'tabler:recycle',
       },
       {
-        title: 'PE Film Washing',
-        description: 'Specialized equipment for cleaning various plastic films, including LLDPE/LDPE and PP materials.',
+        title: 'PE-Folien-Waschung',
+        description: 'Spezialisierte Geräte zur Reinigung verschiedener Kunststofffolien, einschließlich LLDPE/LDPE und PP-Materialien.',
         icon: 'tabler:wash',
       },
       {
-        title: 'Custom Solutions',
-        description: 'Tailored machinery and plant setups to meet specific recycling requirements and challenges.',
+        title: 'Individuelle Lösungen',
+        description: 'Maßgeschneiderte Maschinen und Anlagenkonfigurationen, um spezifische Recyclinganforderungen und Herausforderungen zu erfüllen.',
         icon: 'tabler:adjustments',
       },
     ]}
@@ -67,67 +67,67 @@ const metadata = {
 
   <!-- Steps2 Widget -->
   <Steps2
-    title="Our Process"
-    subtitle="At RUMTOO, we pride ourselves on a comprehensive and efficient approach to plastic recycling. Our process combines cutting-edge technology with decades of industry experience to deliver superior results:"
+    title="Unser Prozess"
+    subtitle="Bei RUMTOO sind wir stolz auf einen umfassenden und effizienten Ansatz für das Kunststoffrecycling. Unser Prozess kombiniert modernste Technologie mit jahrzehntelanger Branchenerfahrung, um erstklassige Ergebnisse zu erzielen:"
     items={[
       {
-        title: 'Research & Development',
-        description: 'Our in-house R&D center continuously innovates and improves our recycling technologies.',
+        title: 'Forschung & Entwicklung',
+        description: 'Unser hauseigenes F&E-Zentrum innoviert und verbessert kontinuierlich unsere Recyclingtechnologien.',
       },
       {
-        title: 'Quality Manufacturing',
-        description: 'All machinery is CE & ISO9001:2000 certified, ensuring high precision and durability.',
+        title: 'Qualitätsfertigung',
+        description: 'Alle Maschinen sind CE- und ISO9001:2000-zertifiziert und gewährleisten höchste Präzision und Langlebigkeit.',
       },
       {
-        title: 'Global Support',
-        description: 'Comprehensive after-sales service and support for clients worldwide.',
+        title: 'Globaler Support',
+        description: 'Umfassender After-Sales-Service und Unterstützung für Kunden weltweit.',
       },
     ]}
   />
 
   <!-- Features2 Widget -->
   <Features2
-    title="Our Product Line"
-    tagline="Comprehensive Recycling Solutions"
+    title="Unsere Produktlinie"
+    tagline="Umfassende Recyclinglösungen"
     columns={2}
     items={[
       {
-        title: 'Size Reduction',
-        description: 'Wet Granulators, Plastic Granulators, Industrial Shredders',
+        title: 'Größenreduzierung',
+        description: 'Nassgranulatoren, Kunststoffgranulatoren, Industrielle Schredder',
       },
       {
-        title: 'Separation',
-        description: 'Label Separators, Slow-Rotating Trommels, "Sink / Float" Separation Tanks',
+        title: 'Trennung',
+        description: 'Etikettentrenner, Langsam rotierende Trommeln, "Sink / Float"-Trennbehälter',
       },
       {
-        title: 'Washing',
-        description: 'Friction Washers, Hot Washers for PET Flakes, High Friction Washers',
+        title: 'Waschen',
+        description: 'Reibungswäscher, Heißwäscher für PET-Flakes, Hochreibungswäscher',
       },
       {
-        title: 'Drying',
-        description: 'Dewatering Machines, Thermal Dryers, Dewatering Screw Presses',
+        title: 'Trocknung',
+        description: 'Entwässerungsmaschinen, Thermotrockner, Entwässerungsschneckenpressen',
       },
       {
-        title: 'Pelletizing',
-        description: 'Single-Screw Extruders, Twin-Screw Extruders',
+        title: 'Pelletierung',
+        description: 'Einschneckenextruder, Doppelschneckenextruder',
       },
     ]}
   />
 
   <!-- Features2 Widget -->
   <Features2
-    title="Contact Us"
-    tagline="Get in Touch"
+    title="Kontaktieren Sie uns"
+    tagline="Nehmen Sie Kontakt auf"
     columns={2}
     items={[
       {
-        title: 'Sales Inquiries',
-        description: 'Phone: +8618118115569<br>Email: <a href="mailto:sales@rumtoo.com">sales@rumtoo.com</a>',
+        title: 'Verkaufsanfragen',
+        description: 'Telefon: +8618118115569<br>E-Mail: <a href="mailto:sales@rumtoo.com">sales@rumtoo.com</a>',
         icon: 'tabler:mail',
       },
       {
-        title: 'Visit Us',
-        description: 'Suzhou City, Jiangsu, P.R.China',
+        title: 'Besuchen Sie uns',
+        description: 'Suzhou, Provinz Jiangsu, VR China',
         icon: 'tabler:map-pin',
       },
     ]}
