@@ -11,7 +11,7 @@ metadata:
   title:
     default: Rumtoo
     template: '%s — Rumtoo'
-  description: "\U0001F680 PP PE Film Washing Line supplier & manufacturer in Zhangjiagang, China. Provider of plastic recycling machinery for washing LDPE film, non-woven bags, packaging bags, etc."
+  description: "\U0001F680 PE/PP-Folien-Waschanlage: Hersteller & Lieferant aus Zhangjiagang, China. Anbieter von Kunststoff-Recyclingmaschinen für die Reinigung von LDPE-Folien, Vliesstoff-Säcken, Verpackungsbeuteln und mehr."
   robots:
     index: true
     follow: true
