@@ -7,41 +7,41 @@ export const headerData = {
       href: getPermalink('https://www.toolant.net'),
     },
     {
-      text: 'Complete Solution',
+      text: 'Schlüsselfertige Lösung',
       links: [
 
         {
-          text: 'Rigid Plastic Recycling Lines',
+          text: 'Hartkunststoff-Recyclinganlagen',
           href: getPermalink('/rigid-plastic-recycling-line'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'PET-Flaschen-Recycling-Waschanlage',
+          href: getPermalink('/'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'Kunststoff-Granulieranlage',
+          href: getPermalink('/'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'PE/PP-Folienwaschanlage',
+          href: getPermalink('/'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Hausmüll-Sortieranlage ',
+          href: getPermalink('/'),
         },
       ],
     },
     {
-      text: 'Recycling Products',
+      text: 'Recyclingmaschinen',
       links: [
         {
-          text: 'Sink Float Tank',
-          href: getPermalink('/products/sink-float-tank'),
+          text: 'Schwimm-Sink-Becken',
+          href: getPermalink('/products/schwimm-sink-becken'),
         },
         {
-          text: 'Single Shaft Shredder With Arm',
-          href: getPermalink('/products/single-shaft-shredder-with-arm'),
+          text: 'Einwellen-Shredder mit Schwenkarm',
+          href: getPermalink('/products/einwellen-shredder-mit-schwenkarm'),
         },
        // {
          // text: 'Click-Through',
@@ -69,22 +69,22 @@ export const headerData = {
           text: 'Blog List',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Recycling Washing Line',
-          href: getPermalink('recycling-washing-line', 'category'),
-        },
-        {
-          text: 'Plastic Pelletizing',
-          href: getPermalink('plastic-pelletizing', 'post'),
-        },
-        {
-          text: 'Plastic Granulator',
-          href: getPermalink('plastic-granulator', 'category'),
-        },
-        {
-          text: 'Recycling Guide',
-          href: getPermalink('recycling-guide', 'category'),
-        },
+       // {
+         // text: 'Recycling Washing Line',
+          //href: getPermalink('recycling-washing-line', 'category'),
+       // },
+        //{
+         // text: 'Plastic Pelletizing',
+         // href: getPermalink('plastic-pelletizing', 'post'),
+        //},
+        //{
+          //text: 'Plastic Granulator',
+          //href: getPermalink('plastic-granulator', 'category'),
+        //},
+        //{
+          //text: 'Recycling Guide',
+          //href: getPermalink('recycling-guide', 'category'),
+       // },
       ],
     },
     {
