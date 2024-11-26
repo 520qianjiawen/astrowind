@@ -29,7 +29,7 @@ Für die Zwecke dieser Datenschutzrichtlinie:
 - **Service** bezieht sich auf die Website.
 - **Dienstanbieter** bezeichnet jede natürliche oder juristische Person, die die Daten im Auftrag des Unternehmens verarbeitet. Dazu gehören Drittunternehmen oder Einzelpersonen, die vom Unternehmen beauftragt werden, den Service zu erleichtern, den Service im Auftrag des Unternehmens bereitzustellen, servicebezogene Dienste auszuführen oder dem Unternehmen bei der Analyse der Nutzung des Services zu helfen.
 - **Nutzungsdaten** sind Daten, die automatisch erfasst werden, entweder durch die Nutzung des Services oder durch die Serviceinfrastruktur selbst (z. B. die Dauer eines Seitenbesuchs).
-- **Website** bezieht sich auf Rumtoo, erreichbar unter [https://www.toolant.net](https://www.toolant.net).
+- **Website** bezieht sich auf Rumtoo, erreichbar unter [https://www.recyclingmachine.de](https://www.recyclingmachine.de).
 - **Sie** bezieht sich auf die Einzelperson, die auf den Service zugreift oder ihn nutzt, oder auf das Unternehmen oder eine andere juristische Person, im Namen derer diese Person auf den Service zugreift oder ihn nutzt, je nach Fall.
 
 ## Erhebung und Nutzung Ihrer personenbezogenen Daten
