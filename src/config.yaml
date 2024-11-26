@@ -1,6 +1,6 @@
 site:
   name: Rumtoo
-  site: 'https://rumtoo.com'
+  site: 'https://www.recyclingmachine.de'
   base: '/'
   trailingSlash: false
 
