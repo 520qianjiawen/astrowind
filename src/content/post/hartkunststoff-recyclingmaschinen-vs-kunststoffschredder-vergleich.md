@@ -16,8 +16,6 @@ metadata:
 
 ---
 
-# Hartkunststoff-Recyclingmaschinen vs. Standard-Kunststoffschredder
-
 Bei der Kunststoffaufbereitung spielt die Wahl der richtigen Ausrüstung eine entscheidende Rolle für Effizienz, Wirtschaftlichkeit und Umweltverträglichkeit. Zwei häufig diskutierte Technologien sind [Hartkunststoff-Recyclingmaschinen](https://www.recyclingmachine.de/hartkunststoff-recyclinganlagen) und Standard-Kunststoffschredder.
 
 ## Was ist eine Hartkunststoff-Recyclingmaschine?
