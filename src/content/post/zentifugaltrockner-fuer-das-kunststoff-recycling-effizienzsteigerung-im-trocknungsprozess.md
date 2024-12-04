@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-09-02T00:00:00Z  
+publishDate: 2024-12-04T00:00:00Z  
 author: John Smith  
 title: Zentrifugaltrockner für die Kunststoff-Recyclingindustrie：Effizienzsteigerung im Trocknungsprozess  
 excerpt: Erfahren Sie, wie Zentrifugaltrockner die Effizienz des Kunststoff-Recyclings steigern können, indem sie überschüssige Feuchtigkeit und Verunreinigungen effektiv entfernen.  
