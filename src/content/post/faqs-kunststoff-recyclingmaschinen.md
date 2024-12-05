@@ -3,7 +3,7 @@ publishDate: 2024-11-25T00:00:00Z
 author: John Smith
 title: FAQs zum Kauf von Kunststoff-Recyclingmaschinen
 excerpt: Ein umfassender Leitfaden zu den wichtigsten Überlegungen beim Kauf von Kunststoff-Recyclingmaschinen, einschließlich Materialkompatibilität, Kapazität und Wartung.
-image: https://recycling.imgix.net/web/A%20minimalist%20illustration%20featuring%20the%20silhouette%20of%20a%20modern%20in.webp
+image: https://recycling.imgix.net/web/A%20minimalist%20illustration%20featuring%20the%20silhouette%20of%20a%20modern%20in.webp?fit=crop&auto=format,compress&fm=webp
 category: Industrieausrüstung
 tags:
  - Recycling
